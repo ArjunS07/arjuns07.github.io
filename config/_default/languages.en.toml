@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "Arjun Sharma"
+# logo = "img/logo.jpg"
+description = "Arjun Sharma's personal website, blog, and projects"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+dateFormat = "2 January 2006"
+
+[author]
+  name = "Arjun Sharma"
+  image = "ArjunSharma_Dec2022.png"
+  headline = "Student at the Shri Ram School, Moulsari • Delhi NCR, India"
+  bio = "A little bit about you"
+  links = [
+    { github = "https://github.com/ArjunS07" },
+    { linkedin = "https://www.linkedin.com/in/arjun-sharma-7314541a0/"}
+  ]
