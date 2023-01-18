@@ -1,0 +1,37 @@
+<div class="">
+    <div class="flex flex-col items-center justify-center">
+        {{ with .Site.Author.image }}
+        {{ $authorImage := resources.Get . }}
+        {{ if $authorImage }}
+        {{ $authorImage := $authorImage.Fill "288x288" }}
+        <img class="w-40 h-40 mb-6 rounded-full" alt="{{ $.Site.Author.name | default " Author" }}"
+            src="{{ $authorImage.RelPermalink }}" />
+        {{ end }}
+        {{ end }}
+
+        <h1 class="mb-2 text-4xl font-bold text-center">Hi, I'm Arjun Sharma 👋</h1>
+        <p class="mb-6 text-xl ">I'm a 17-year-old student, tinkerer, and blogger living in Delhi NCR, India</p>
+
+        <p class="mb-4 leading-10 text-neutral-600 dark:text-neutral-300">Reprehenderit exercitation consectetur est
+            proident laboris id ad.
+            Duis labore do commodo sit nisi ipsum dolor Lorem laborum ad eu commodo officia. Reprehenderit in aliquip do
+            aute amet occaecat. Eiusmod ex proident ex. Aliquip laboris nulla pariatur dolore ex esse aute minim nisi
+            consectetur dolore irure ex anim sunt. Fugiat cillum est laboris irure voluptate aute Lorem nulla esse sint
+            dolor. Qui consequat magna sit cupidatat amet nulla et aliqua cillum enim fugiat excepteur dolore excepteur.
+            Ea elit in voluptate consectetur cillum fugiat laboris.</p>
+
+    </div>
+
+</div>
+
+<div class="mb-14">
+    {{ partial "recent-articles.html" . }}
+</div>
+
+<div class="mb-5">
+    <h3 class="mb-1 text-2xl font-extrabold">Sign up for my mailing list</h3>
+    <p class="text-neutral-600 dark:text-neutral-300">Get my latest blog posts delivered directly to your inbox</p>
+
+</div>
+
+{{- partial "subscribe.html" . -}}

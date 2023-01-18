@@ -1,0 +1,16 @@
+<form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+
+    <div class="flex flex-row md:block">
+        <input
+        class="flex-grow h-12 p-4 mb-3 mr-1 bg-transparent rounded-md outline outline-1 outline-neutral-300 dark:outline-neutral-600 md:w-80"
+        name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'you@email.com'"
+        placeholder="Your email" />
+    <input class="hidden" name="bot-field" placeholder="This is a spam detector, don't fill this out if you're a human."
+        />
+    <button type="submit"
+        class="md:inline-block h-12 !rounded-sm !bg-transparent !outline-neutral-300 !dark:outline-neutral-600 px-4 py-1 !text-neutral-400 dark:text-neutral-200 !no-underline hov:dark:text-white">
+        {{ partial "icon.html" "check" }}
+    </button>
+    </div>
+    
+</form>

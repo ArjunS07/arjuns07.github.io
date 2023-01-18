@@ -3,11 +3,12 @@
 # https://jpanther.github.io/congo/docs/getting-started/
 
 # baseURL = "https://your_domain.com/"
+theme = "congo"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 15
-summaryLength = 20
+paginate = 10
+summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
