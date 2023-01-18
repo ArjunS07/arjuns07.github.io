@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "My projects"
 layout: "list"
 cascade:
   showReadingTime: false

@@ -1,7 +1,7 @@
 # netlify.toml
 
 [build]
-  command = "hugo mod get -u && hugo --gc --minify -b $URL"
+  command = "npm install && hugo --gc --minify -b $URL"
   publish = "public"
 
 [build.environment]
@@ -15,3 +15,6 @@
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.105.0"
+
+[functions]
+  node_bundler = "esbuild"
