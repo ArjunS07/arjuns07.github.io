@@ -1,4 +1,4 @@
-/*! Congo v2.5.0 | MIT License | https://github.com/jpanther/congo */
+/*! Congo v2.5.1 | MIT License | https://github.com/jpanther/congo */
 
 /*! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
 
@@ -1020,8 +1020,8 @@ body button {
 /* Hamburger menu */
 
 body:has(#menu-controller:checked) {
-  position: fixed;
-  overflow-y: hidden;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #menu-button:has(#menu-controller:checked) {
@@ -1778,6 +1778,10 @@ body:has(#menu-controller:checked) {
   margin-bottom: 0.75rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -1808,10 +1812,6 @@ body:has(#menu-controller:checked) {
 
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
 }
 
 .mt-8 {
@@ -1866,10 +1866,6 @@ body:has(#menu-controller:checked) {
   margin-bottom: 2px;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
 .block {
   display: block;
 }
@@ -1886,16 +1882,8 @@ body:has(#menu-controller:checked) {
   display: flex;
 }
 
-.table {
-  display: table;
-}
-
 .grid {
   display: grid;
-}
-
-.contents {
-  display: contents;
 }
 
 .hidden {
@@ -1954,16 +1942,16 @@ body:has(#menu-controller:checked) {
   width: 9rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .w-40 {
   width: 10rem;
 }
 
 .w-12 {
   width: 3rem;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .w-24 {
@@ -2537,11 +2525,6 @@ body:has(#menu-controller:checked) {
   color: rgba(var(--color-neutral), var(--tw-text-opacity)) !important;
 }
 
-.text-neutral-300 {
-  --tw-text-opacity: 1;
-  color: rgba(var(--color-neutral-300), var(--tw-text-opacity));
-}
-
 .\!no-underline {
   text-decoration-line: none !important;
 }
@@ -3094,6 +3077,10 @@ body:has(#menu-controller:checked) {
     width: 10rem;
   }
 
+  .sm\:w-96 {
+    width: 24rem;
+  }
+
   .sm\:max-w-\[10rem\] {
     max-width: 10rem;
   }
@@ -3171,16 +3158,16 @@ body:has(#menu-controller:checked) {
     margin-bottom: 1.25rem;
   }
 
-  .md\:block {
-    display: block;
-  }
-
   .md\:inline-block {
     display: inline-block;
   }
 
   .md\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .md\:w-40 {
+    width: 10rem;
   }
 
   .md\:w-80 {

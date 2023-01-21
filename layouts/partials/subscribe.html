@@ -1,12 +1,18 @@
-<!-- <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field"> -->
-    <form name="newsletter">
+<form
+    action="https://app.us21.list-manage.com/subscribe/post?u=e35372335c1a4db9c66e64fa4&amp;id=729c9be178&amp;f_id=0079d3e1f0"
+    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
 
-    <div class="flex flex-row md:block">
+    <div class="flex flex-row w-full md:w-120">
         <input
             class="flex-grow h-12 p-4 mr-1 bg-transparent rounded-md outline outline-1 outline-neutral-300 dark:outline-neutral-600 md:w-80 md:w-96"
-            name="email" id="email" type="email" placeholder="Your email" />
-        <input class="hidden" name="bot-field"
-            placeholder="This is a spam detector, don't fill this out if you're a human." />
+            name="EMAIL" id="mce-EMAIL" type="email" placeholder="Your email" / required>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_e35372335c1a4db9c66e64fa4_729c9be178" tabindex="-1" value="">
+        </div>
+        <div id="mce-responses" class="clear foot">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
         <button type="submit"
             class="md:inline-block h-12 !rounded-sm !bg-transparent px-4 py-1 dark:text-neutral-300 text-neutral-600 !no-underline">
             {{ partial "icon.html" "check" }}
