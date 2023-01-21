@@ -13,7 +13,7 @@ mainSections = ["blog"]
 # robots = ""
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
   # logo = "img/logo.jpg"
   showTitle = true
 
@@ -21,7 +21,7 @@ mainSections = ["blog"]
   showCopyright = true
   showThemeAttribution = false
   showAppearanceSwitcher = true
-  showScrollToTop = true
+  showScrollToTop = false
 
 [homepage]
   layout = "custom" # valid options: page, profile, custom

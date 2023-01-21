@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+<div class="mb-6 md:w-2/3">
+    <div class="pb-6">
+        <h1 class="mb-4 text-4xl font-extrabold text-neutral-900 dark:text-neutral">My Blog</h1>
+
+        <div class="prose dark:prose-invert md:flex-row">
+            <p class="mb-3">
+                I've been writing about things I'm passionate about for years. Today, this is where you can find a
+                collection of my ravings and ruminations.
+            </p>
+            <p class="mb-3">
+                Some of these posts are quite old, so if you're reading them and find yourself thinking that you don't
+                quite agree with me, I probably don't agree with me either.
+            </p>
+            <p>
+                Happy reading!
+            </p>
+        </div>
+    </div>
+
+    <div class="py-5 border-t border-b border-dashed border-1 border-neutral-400">
+
+        <h2 class="mb-1 font-bold text-md text-neutral-800 dark:text-neutral-200">Sign up for my mailing list</h2>
+        <p class="mb-6 text-base text-neutral-600 dark:text-neutral-300">Get the latest from my blog delivered directly
+            to
+            your
+            inbox. </p>
+        {{- partial "subscribe.html" . -}}
+    </div>
+</div>
+
+
+
+{{ $toc := and (.Params.showTableOfContents | default (.Site.Params.list.showTableOfContents | default false)) (in
+.TableOfContents "<ul") }} <header>
+    {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
+    {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    </header>
+    <section class="{{ if $toc -}}
+      mt-12
+    {{- else -}}
+      mt-0
+    {{- end }} prose flex max-w-full flex-col dark:prose-invert md:flex-row">
+        {{ if $toc }}
+        <div class="order-first px-0 md:order-last md:max-w-xs ltr:md:pl-8 rtl:md:pr-8">
+            <div class="toc ltr:pl-5 rtl:pr-5 md:sticky md:top-10">
+                {{ partial "toc.html" . }}
+            </div>
+        </div>
+        {{ end }}
+        <div class="min-w-0 min-h-0 max-w-prose grow">
+            {{ .Content | emojify }}
+        </div>
+    </section>
+    {{ if .Data.Pages }}
+    <section>
+        {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
+        {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+        <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            {{ .Key }}
+        </h2>
+        <hr class="border-dotted w-36 border-neutral-400" />
+        {{ range .Pages }}
+        {{ partial "article-link.html" . }}
+        {{ end }}
+        {{ end }}
+        {{ else }}
+        {{ range (.Paginate .Pages).Pages }}
+        {{ partial "article-link.html" . }}
+        {{ end }}
+        {{ end }}
+    </section>
+    {{ partial "pagination.html" . }}
+    {{ else }}
+    <section class="mt-10 prose dark:prose-invert">
+        <p class="py-8 border-t">
+            <em>{{ i18n "list.no_articles" | emojify }}</em>
+        </p>
+    </section>
+    {{ end }}
+    {{ end }}
