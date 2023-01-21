@@ -42,7 +42,7 @@ My values and beliefs are shaped by the books I've read over the years. I enjoy 
 I've worked with a number of programming languages and frameworks over the years.
 My backend framework of choice is [Django](https://www.djangoproject.com/), but I've also enjoyed working with [FastAPI](https://fastapi.tiangolo.com/) and [Flask](https://flask.palletsprojects.com/en/2.2.x/).
 
-I like [Flutter](https://flutter.dev/) for building mobile apps, but I got my start doing serious programming with [Swift and UIKit](https://developer.apple.com/documentation/uikit) and I still have a soft spot for them. When building for the web, I still run screaming at the site of any CSS more advanced than what you'd see in an introductory crash course (`nth-child` the what now?), which is why I so frequently use [TailwindCSS](tailwindcsss.com) as well as [Bulma](bulma.io).
+I like [Flutter](https://flutter.dev/) for building mobile apps, but I got my start doing serious programming with [Swift and UIKit](https://developer.apple.com/documentation/uikit) and I still have a soft spot for them. When building for the web, I still run screaming at the sight of any CSS more advanced than what you'd see in an introductory crash course (`nth-child` the what now?), which is why I so frequently use [TailwindCSS](tailwindcsss.com) as well as [Bulma](bulma.io).
 
 I enjoy using some JetBrains IDEs like [DataSpell](https://www.jetbrains.com/dataspell/) and [PyCharm](https://www.jetbrains.com/pycharm/), however, most of my programming work today - including building this site - is done in [Visual Studio Code](https://code.visualstudio.com/).  
 
