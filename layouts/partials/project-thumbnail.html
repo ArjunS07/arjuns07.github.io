@@ -1,0 +1,21 @@
+<div class="flex flex-col items-center gap-4">
+    {{- $images := $.Resources.ByType "image" }}
+    {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
+
+    {{- if $thumbnail }}
+    <a href="{{ .RelPermalink }}" target="_blank" rel="external">
+        <img src="{{ $thumbnail.Permalink }}" alt="{{ $thumbnail.Title }}" class="object-contain rounded-md h-60 aspect-auto" />
+    </a>
+    {{- end }}
+
+    <div class="">
+        <a href="{{ .RelPermalink }}" target="_blank" rel="external">
+            <h1 class="text-xl font-bold text-center">
+                {{ $.Title }}
+            </h1>
+        </a>
+        <h3 class="text-base font-medium text-center uppercase text-neutral-500 dark:text-neutral-300"> {{ .Params.timeline }} </h3>    
+    </div>
+    <p class="text-center text-md text-neutral-600 dark:text-neutral-200"> {{ $.Description }} </p>
+
+</div>
