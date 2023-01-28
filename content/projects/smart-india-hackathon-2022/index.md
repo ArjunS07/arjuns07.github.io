@@ -1,6 +1,6 @@
 ---
 title: "EduDaan"
-description: "A mobile app for facilitating volunteer tutoring that I developed for the Government of India-organized Smart India Hackathon 2022"
+description: "A mobile app for facilitating volunteer tutoring that was a winner in the Government of India Smart India Hackathon 2022"
 draft: false
 thumbnail: "images/edudaan_logo.png"
 layout: "simple"

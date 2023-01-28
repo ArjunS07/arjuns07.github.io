@@ -1,6 +1,6 @@
 ---
 title: "Bot Xchange"
-description: "An original ML-based algorithmic stock trading event I co-developed for ShriTeq 2022"
+description: "An original ML-based algorithmic stock trading event I co-developed for ShriTeq, an inter-school technology competition, in 2022"
 draft: false
 thumbnail: "images/random-forest-model.png"
 layout: "simple"

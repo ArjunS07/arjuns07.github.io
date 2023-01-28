@@ -18,7 +18,7 @@ Back in third grade, I was an overenthusiastic cricket fan who was only able to 
 
 Later, when I was twelve, I was an avid reader of tech blogs and opinion pieces, in particular, Dieter Bohn's _Processor_ series for _The Verge_. By then, I'd come to genuinely enjoy writing as a way of challening my interest in topics I was passionate about, and so started my own technology blog - taking heavy inspiration from columnists like Bohn (whose influence you can quite clearly see in my earlier writing).
 
-I've since written dozens of posts about tech news, media, and a whole lot  more, which live on my [blog on this site](/blog) today.
+I've since written dozens of posts about tech news, media, and a whole lot  more, which live on my [blog](/blog) today.
 
 ### My favourite apps and software
 
@@ -30,7 +30,7 @@ I've since written dozens of posts about tech news, media, and a whole lot  more
 
 ### My favourite books
 
-My values and beliefs are shaped by the books I've read over the years. I enjoy most genres, but my favourite novels generally cover some mix of science, technology, history, and business.
+My values and beliefs are shaped by the books I've read over the years. I enjoy most genres, but my favourite books generally cover some mix of science, technology, history, and business.
 
 * _**Project Hail Mary**_ by Andy Weir
 * _**The Day of the Jackal**_ by Frederick Forsyth
