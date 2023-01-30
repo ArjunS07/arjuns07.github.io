@@ -14,7 +14,7 @@ It’s still only an anonymous report from ‘a person familiar with the plans�
 
 This doesn’t make it any less interesting, though, because the exact manner in which Microsoft chooses to integrate ChatGPT into the Bing search interface, and how well their plans are executed, could be a defining moment in the development of generative AI.
 
-Microsoft’s going to have to be careful. Other big tech firms appear wary of the technology, and probably for good reason - notably, Google executives cited the [‘reputational risk’](https://www.theverge.com/2022/12/14/23508756/google-vs-chatgpt-ai-replace-search-reputational-risk) associated with generative models as a deterrent in launching their own chatbots into the public.
+Microsoft’s going to have to be careful. Other big tech firms appear wary of the technology, and probably for good reason - notably, Google executives cited the [‘reputational risk’](https://www.theverge.com/2022/12/14/23508756/google-vs-chatgpt-ai-replace-search-reputational-risk) associated with generative models as a deterrent in launching their own chatbots into the public. And there's no shortage of valid reasons as to why.
 
 ## The challenges facecd by generative A.I. today
 
@@ -26,7 +26,7 @@ Because of how the model works – it’s trained on a large corpus of texts and
 
 2. **Insensitivity** – OpenAI’s added enough guardrails to attempt to prevent the model from generating anything problematic (whether those are imitations of humans or hateful tirades) to the point where they can impede legitimate uses of the technology. However, that doesn’t mean there aren’t ways to trick it - with some not-so-difficult prompt engineering, people have [gotten](https://twitter.com/zswitten/status/1598380220943593472) [around](https://www.newstatesman.com/quickfire/2022/12/chatgpt-shows-ai-racism-problem) those filters.
 
-The above two problems are probably what the Google executives were worried about, and what most of the public's attention seems to have been on so far. But I think there's another significant problem which people aren't talking enough about, at least outside academic and programming circles.
+The above two problems are probably what the Google executives were worried about, and what most of the public's attention seems to have been on so far. But I think there's another significant problem which people aren't talking enough about outside academic and programming circles.
 
 3. **Closed-sourceness** – LLMs are increasingly inaccessible to anyone who's interested in tinkering or experimenting with them. Despite their name, OpenAI in particular has been rather opaque on the exact working of their most important breakthroughs - notably, Microsoft has an [exclusive licence](https://blogs.microsoft.com/blog/2020/09/22/microsoft-teams-up-with-openai-to-exclusively-license-gpt-3-language-model/) to the code behind GPT-3. OpenAI’s also heavily reliant on Microsoft Azure for the infrastructure powering their services and for training the model, which is estimated to cost $3 million / day .
 
@@ -38,7 +38,9 @@ Even still, the computational resources required to run ChatGPT dwarf in compari
 
 The reason why I think this is such a crucial moment in artificial intelligence is because Microsoft is going to have to reckon with each of these challenges for this integration to be successful.
 
-If they play it safe, they might be able to build something that rivals [Google’s Knowledge Graph](https://support.google.com/knowledgepanel/answer/9787176?hl=en), (which is the technology behind Google knowledge panels and abstractive summaries from webpages). That’d perhaps be useful, and definitely have a positive impact on the Bing user experience – but considering it’s something Google’s had since long before LLMs were mainstream technology, it's probably not something which Microsoft executives would see as a justification of their massive investment in OpenAI. Besides, it's not exactly the best application of ChatGPT. ChatGPT is tuned for guided conversation, not general NLP tasks like its underlying GPT-3 model.
+If they play it safe, they might be able to build something that rivals [Google’s Knowledge Graph](https://support.google.com/knowledgepanel/answer/9787176?hl=en). 
+
+That’d perhaps be useful, and definitely have a positive impact on the Bing user experience – but considering it’s something Google’s had since long before LLMs were mainstream technology, it's probably not something which Microsoft executives would see as a justification of their massive investment in OpenAI. Besides, it's not exactly the best application of ChatGPT. ChatGPT is tuned for guided conversation, not general NLP tasks like its underlying GPT-3 model.
 
 The far more exciting possibility, then, is them truly tapping into what makes ChatGPT special.
 
