@@ -20,4 +20,6 @@ Being a student is hard. Your phone and the internet usually don't help make it 
 
 7. **Sleepyti.me**: After all that hard work, you deserve a good night's rest which'll allow you to wake up in the morning. The doctor-recommended minimum of eight hours of sleep doesn't always ensure that you don't feel groggy — it turns out that if you wake up in a middle of one of your 'sleep cycles', you end up feeling tired when awake, but if you wake up right between cycles, you'll likely be fresh and energetic.  allows you to optimise your sleep schedule  based on these cycles by telling you when to go to bed based on when you need to wake up, what time to wake up if you go to bed now, or when to wake up based on when you plan to go to sleep. Try following its research-backed recommendations, and you'll wonder how you ever managed to survive without it.
 
-These utilities won't magically solve your problems. But they will help fight distraction, increase focus, and improve your content and research abilities. Now all that's left is to find an app that adds hours to the clock.
+These utilities won't magically solve your problems. But they will help fight distraction, increase focus, and improve your content and research abilities.
+
+Now all that's left is to find an app that adds hours to the clock.
