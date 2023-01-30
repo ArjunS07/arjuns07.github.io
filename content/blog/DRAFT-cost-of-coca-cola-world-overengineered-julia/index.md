@@ -1,5 +1,5 @@
 ---
-title: "How much would it cost to supply one can of Coca-Cola to the entire world? An overengineered solution with Julia"
+title: "How much would it cost to supply one can of Coca-Cola to the entire world? An overengineered solution using Julia"
 date: 2023-01-06T22:20:32+05:30
 draft: true
 ---
@@ -15,4 +15,4 @@ Disclaimer: This is my first time using Julia for anything serious, so while I'v
 ### How we're going to calculate prices
 In an ideal world, Coca-Colas would cost the same everywhere and we could just multiply the number of people in the world by the price of a can of Coke.
 
-Unfortunately, one of the many ways in which the world we live in is far from ideal, millions are disenfranchised from the goodness of Coca-Cola.
+Unfortunately, one of the many ways in which the world we live in is far from ideal, millions are disenfranchised from the goodness of Coca-Cola, and they'

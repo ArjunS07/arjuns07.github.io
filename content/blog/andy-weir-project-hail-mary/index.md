@@ -1,5 +1,6 @@
 ---
 title: "Andy Weir's 'Project Hail Mary' isn't 'The Martian', and that's a good thing"
+description: "A review of Andy Weir's Project Hail Mary on Arjun Sharma's blog"
 date: 2022-05-10T20:00:28+05:30
 draft: false
 ---
