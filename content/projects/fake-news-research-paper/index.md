@@ -9,7 +9,7 @@ weight: 700
 url: "fn-paper"
 ---
 
-In 2021, I worked on a 
+In 2021, I worked on a computer science research paper on the topic of fake news detection under an assistant profesor in the Polygence program.
 
 ## TL;DR
 
@@ -18,10 +18,10 @@ The best way way to find out about my research is to look at the presentation I 
 {{< youtube id="9BIjXCnkLBA?start=1236" autoplay="false" >}}
 
 You can also go over the full-length paper:
+
 {{< raw-html >}}
 <iframe src="/fn-paper/FullLength_Paper_IdentifyingCharacteristicFeaturesOfFakeNewsArticlesForDeepLearningBasedIdentification.pdf" width="100%" height="750px"> </iframe>
 {{< /raw-html >}}
-
 
 ... and a shorter, two-page version:
 {{< raw-html >}}
