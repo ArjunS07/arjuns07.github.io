@@ -1,7 +1,9 @@
 ---
-title: "Read 'An Absolutely Remarkable Thing' for a unique take on the internet, fame, and humanity"
+title: "In 'An Absolutely Remarkable Thing', Hank Green wants to tell you what humanity means in the internet age"
 date: 2022-05-10T19:32:58+05:30
 draft: false
+showFullContent: false
+description: "A review of the YouTuber's debut novel, and musings on why it's a must-read for anyone interested in the implications of technology on humanity"
 ---
 
 _The following article contains mild spoilers for the entirety of 'An Absolutely Remarkable Thing' by Hank Green_

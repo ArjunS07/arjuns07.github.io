@@ -2,6 +2,7 @@
 title: "Things like spam can be more useful than you think"
 date: 2018-12-02T20:33:31+05:30
 draft: false
+showFullContent: false
 ---
 _Seventh-grade me was tasked with writing an article about the the theme 'perspective' for his school magazine. Naturally, he found a way to fit the topic to something tech-related. Today, I don't agree with most of the article which resulted - its style or its message - but I've put it here anyways._
 

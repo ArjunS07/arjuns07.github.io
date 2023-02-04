@@ -2,6 +2,8 @@
 title: "Intel just lost Apple, but it knows what it has to do to surive"
 date: 2020-07-26T20:02:02+05:30
 draft: false
+showFullContent: false
+description: "Things are going to get a lot harder for Intel after Apple's announcement about their switch to in-house silicon, but the chipmaker isn't going anywhere"
 ---
 
 

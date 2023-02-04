@@ -2,6 +2,8 @@
 title: "Why I'm so excited for 2019 in technology"
 date: 2019-01-10T20:32:48+05:30
 draft: false
+showFullContent: false
+description: "What I expect in the coming year in technology."
 ---
 
 I write this article in the wake of Apple and Samsung reporting poor(er) sales figures for their flagship smartphones in 2018, and most industry analysts now declaring that the smartphone market is officially saturated in most key markets for companies globally. Translated into simpler terms, that essentially means that it's finally time for the tech industry to look beyond their faithful cash cow for the last decade, and move towards new, emerging technologies that may well be key to their future.

@@ -2,6 +2,8 @@
 title: "Hidden gems on the technological internet to visit"
 date: 2020-09-20T20:01:49+05:30
 draft: false
+showFullContent: false
+description: "A list of newsletters, blogs and YouTube channels that deserve a visit from any tech enthusiast"
 ---
 
 The tech world's little corner on the internet has its own share of big names who dominate the YouTube algorithm and where people read their headlines. But apart from the Verges and Linus Tech Tips of the world, there are several less prominent and less mainstream avenue for technology-related analysis and news. This article aims to highlight a few that I've come across which play a crucial role in informing my knowledge and perspective on technology.

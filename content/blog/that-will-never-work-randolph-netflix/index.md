@@ -2,6 +2,8 @@
 title: "Marc Randolph's 'That Will Never Work' endearingly tells the unlikely story of Netflix"
 date: 2020-03-07T20:03:15+05:30
 draft: false
+showFullContent: false
+description: "A short review of the autobiography of Netflix's cofounder Marc Randolph"
 ---
 That Will Never Work by Marc Randolph (a co-Founder of Netflix), is not the ordinary memoir of a Silicon Valley tycoon. It's not a lengthy text that errs on the side of filling in irrelevant details, a crime that such works often find themselves guilty of. Instead, it's a concise, to-the-point telling of the classic Silicon Valley story.
 

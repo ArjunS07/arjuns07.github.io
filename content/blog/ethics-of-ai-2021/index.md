@@ -2,6 +2,8 @@
 title: "What we learnt about the ethics of AI in 2021"
 date: 2021-12-29T20:01:15+05:30
 draft: false
+showFullContent: false
+description: "A reflection on the moral and ethical challenges faced by AI this year as it becomes an increasingly prominent and powerful part of the world"
 ---
 
 This year saw artificial intelligence in the headlines: for a new breakthrough natural language model becoming [publicly available](https://openai.com/blog/gpt-3-apps/), Elon Musk [revealing](https://www.theverge.com/2021/8/19/22633514/tesla-robot-prototype-elon-musk-humanoid-ai-day) a peculiar humanoid robot on stage, and 300 unknown exoplanets being [discovered](https://www.space.com/artificial-intelligence-300-exoplanets-in-kepler-data) in existing Kepler telescope data by neural networks.

@@ -2,6 +2,7 @@
 title: "'Sharp' is a word that's more important to our future than you may realise"
 date: 2018-11-29T20:33:39+05:30
 draft: false
+showFullContent: false
 ---
 _This is another of the articles that I was tasked with writing based on a theme as a middle schooler. The prompt, as you might have guessed, was 'sharp'. I was getting at something interesting by trying to have a discussion about what it ultimately means to be a person, and to what extent machines can mimick that, but I'm not quite sure how convincingly I was able to write about that topic. I've copied that article almost word-for-word here for you to make that call._
 

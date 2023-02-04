@@ -2,6 +2,8 @@
 title: "Ted Chiang's 'Exhalation: Stories' forces you to think about the big questions"
 date: 2022-03-09T20:00:51+05:30
 draft: false
+showFullContent: false
+description: "A review of a collection of short stories by Ted Chiang, and musings on what it means"
 ---
 
 My latest read was quite unlike the ones that came before it. Not only was it my first time listening to an audiobook, but also the first collection of short stories that I've completed in years.

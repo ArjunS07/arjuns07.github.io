@@ -6,5 +6,5 @@ draft: true
 showTableOfContents: true
 showHeadingAnchors: true
 showTaxonomy: true
-
+showFullContent: false
 ---

@@ -1,7 +1,9 @@
 ---
-title: "Joe Rogan's exclusive Spotify deal is bad news for the future of podcasts"
+title: "Joe Rogan's exclusive deal with Spotify is a worrying sign for the future of podcasting"
 date: 2020-05-22T20:02:21+05:30
 draft: false
+showFullContent: false
+description: "Spotify is looking to take over the podcasting industry, and may end up transforming it for the worse"
 ---
 
 Recently, the Joe Rogan Experience (JRE), one of the most-listened to podcasts internationally, announced that it's going to Spotify on September 1st and is going to be exclusively available there from the end of this year. Rogan's show receives millions of views on YouTube, and is also highly popular on podcasting platforms such as Apple Podcasts, (until this deal was announced, it was not available on Spotify). The podcast will be available to all Spotify users for free.
