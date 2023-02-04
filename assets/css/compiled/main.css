@@ -2004,6 +2004,10 @@ body:has(#menu-controller:checked) {
   margin-bottom: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
@@ -2034,6 +2038,10 @@ body:has(#menu-controller:checked) {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .mt-8 {
@@ -2092,16 +2100,20 @@ body:has(#menu-controller:checked) {
   margin-bottom: 2px;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-9 {
+  margin-bottom: 2.25rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .block {
@@ -2500,10 +2512,6 @@ body:has(#menu-controller:checked) {
   background-color: rgba(var(--color-neutral-100), 0.5);
 }
 
-.fill-neutral-600 {
-  fill: rgba(var(--color-neutral-600), 1);
-}
-
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -2519,10 +2527,6 @@ body:has(#menu-controller:checked) {
      object-position: left;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -2536,9 +2540,9 @@ body:has(#menu-controller:checked) {
   padding-bottom: 0.75rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-8 {
@@ -2546,14 +2550,19 @@ body:has(#menu-controller:checked) {
   padding-bottom: 2rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .px-1 {
@@ -2564,11 +2573,6 @@ body:has(#menu-controller:checked) {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .px-0 {
@@ -2591,17 +2595,27 @@ body:has(#menu-controller:checked) {
   padding-bottom: 2.5rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pr-4 {
   padding-right: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .pt-3 {
@@ -2695,10 +2709,6 @@ body:has(#menu-controller:checked) {
   font-weight: 400;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -2725,6 +2735,10 @@ body:has(#menu-controller:checked) {
 
 .leading-3 {
   line-height: .75rem;
+}
+
+.tracking-\[0\.75em\] {
+  letter-spacing: 0.75em;
 }
 
 .text-neutral-800 {
@@ -3186,6 +3200,10 @@ body:has(#menu-controller:checked) {
   background-color: rgba(var(--color-primary-800), var(--tw-bg-opacity));
 }
 
+.dark .dark\:fill-neutral-200 {
+  fill: rgba(var(--color-neutral-200), 1);
+}
+
 .dark .dark\:prose-invert {
   --tw-prose-body: var(--tw-prose-invert-body);
   --tw-prose-headings: var(--tw-prose-invert-headings);
@@ -3437,6 +3455,10 @@ body:has(#menu-controller:checked) {
 
   .md\:items-start {
     align-items: flex-start;
+  }
+
+  .md\:gap-16 {
+    gap: 4rem;
   }
 
   .md\:gap-12 {

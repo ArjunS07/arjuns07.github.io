@@ -42,10 +42,10 @@ My values and beliefs are shaped by the books I've read over the years. I enjoy 
 I've worked with a number of programming languages and frameworks over the years.
 My backend framework of choice is [Django](https://www.djangoproject.com/), but I've also enjoyed working with [FastAPI](https://fastapi.tiangolo.com/) and [Flask](https://flask.palletsprojects.com/en/2.2.x/).
 
-I like [Flutter](https://flutter.dev/) for building mobile apps, but I got my start doing serious programming with [Swift and UIKit](https://developer.apple.com/documentation/uikit) and I still have a soft spot for them. When building for the web, I still run screaming at the sight of any CSS more advanced than what you'd see in an introductory crash course (`nth-child` the what now?), which is why I so frequently use [TailwindCSS](tailwindcsss.com) as well as [Bulma](bulma.io).
+I like [Flutter](https://flutter.dev/) for building mobile apps, but I got my start doing serious programming with [Swift and UIKit](https://developer.apple.com/documentation/uikit) and I still have a soft spot for them. When building for the web, I still run screaming at the sight of any CSS more advanced than what you'd see in an introductory crash course (`nth-child` the what now?), which is why I so frequently use [TailwindCSS](https://tailwindcss.com/) as well as [Bulma](https://bulma.io).
 
-I enjoy using some JetBrains IDEs like [DataSpell](https://www.jetbrains.com/dataspell/) and [PyCharm](https://www.jetbrains.com/pycharm/), however, most of my programming work today - including building this site - is done in [Visual Studio Code](https://code.visualstudio.com/).  
+Recently, I've been learning [Julia](https://julialang.org/) for scientific computing, and finally gotten around my dislike of JavaScript by working on [VueJS](https://vuejs.org/).
 
-You can check out my [GitHub profile](github.com/ArjunS07) to see what I'm working on.  
+You can check out my [GitHub](github.com/ArjunS07) to see what I'm working on right now.
 
-**This site was made with the [Congo](https://github.com/jpanther/congo) theme for [Hugo](gohugo.io).**
+**This site was made with a customised build of the [Congo theme](https://github.com/jpanther/congo) for the [Hugo](gohugo.io) static-site generator. It is deployed to Netlify and uses Mailchimp.**

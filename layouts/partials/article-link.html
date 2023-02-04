@@ -1,4 +1,4 @@
-<article class="flex flex-row mt-4 max-w-prose">
+<article class="flex flex-row mt-2 mb-7 max-w-prose">
     {{- $images := $.Resources.ByType "image" }}
     {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
     {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}

@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="grid-cols-12 gap-12 md:grid">
+<div class="grid-cols-12 gap-12 md:gap-16 md:grid">
     <div class="flex flex-col col-span-4 gap-7">
         <div class="text-base leading-normal prose dark:prose-invert">
             <h2 class="mb-4 font-bold text-md">My blog</h2>
@@ -16,7 +16,7 @@
                 Happy reading!
             </p>
         </div>
-        <div class="py-3 border-t border-b border-dashed border-1 border-neutral-400">
+        <div class="py-5 border-t border-b border-dashed border-1 border-neutral-400">
             <h2 class="mb-1 text-base font-bold text-neutral-800 dark:text-neutral-200">Sign up for my mailing list</h2>
             <p class="mb-4 text-sm text-neutral-600 dark:text-neutral-300">Get the latest from my blog delivered
                 directly to your inbox. </p>
@@ -35,25 +35,23 @@
             </h2>
             <hr class="mb-6 border-dotted w-36 border-neutral-400" />
             {{ range .Pages }}
-            <article class="max-w-full">
+            <article class="max-w-full mb-8">
                 <header>
-                    <a class="mt-0 text-lg font-bold text-neutral-900 dark:text-neutral" href="{{ .RelPermalink }}">
+                    <a class="mt-0 mb-1 text-lg font-bold text-neutral-900 dark:text-neutral" href="{{ .RelPermalink }}">
                         {{ .Title | emojify }}
                     </a>
 
-                    <div class="py-1 text-base font-medium delay-300 text-neutral-600 dark:text-neutral-200">
+                    <div class="py-2 text-base font-medium delay-300 text-neutral-600 dark:text-neutral-200">
                         {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
                     </div>
                 </header>
                 {{ if .Params.ShowFullContent }}
                 <section class="max-w-full mt-3 leading-relaxed prose prose-base dark:prose-invert">
                     {{ .Content | emojify }}
-                    <hr class="w-full mb-1 border-neutral-400" />
                 </section>
+                <p class="mt-4 w-full font-bold text-center text-md text-neutral-400 tracking-[0.75em]">***</p>
                 {{ end }}
-                <footer class="pt-8">
-                    {{ partial "sharing-links.html" . }}
-                </footer>
+                
             </article>
             {{ end }}
             {{ end }}

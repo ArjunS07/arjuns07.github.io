@@ -1,9 +1,10 @@
 ---
 title: "Andy Weir's 'Project Hail Mary' isn't 'The Martian', and that's a good thing"
-date: 2022-05-10T20:00:28+05:30
+date: 2022-03-15T20:00:28+05:30
 draft: false
 showFullContent: false
-description: "A review of Weir's novel, and what it has to say about humans"
+summary: "A review of Weir's novel, and what it has to say about humans"
+tags: ["Reviews"]
 ---
 
 _This review contains spoilers for all of Project Hail Mary by Andy Weir. Now's the time to look away if you plan to read it but haven't yet!_
@@ -31,7 +32,5 @@ But it's these choices in Weir's fundamentally flawed but also fundamentally goo
 Weir doesn't want you to think anything but that Ryland Grace is a perfectly normal human, representative of the entire species - on a quite literal level to the aliens of 40-Eridan - and as such, symbolises what Weir ultimately thinks humans are capable of.
 
 Sure, they may not be perfect, and might run from that which intimidates them at the first, but they're still capable of selfless acts of bravery and collaboration. And fundamentally, they're worth saving.
-
------
 
 Andy Weir's Project Hail Mary doesn't transform its genre, but it doesn't try to. It's not _The Martian_, but it does capture the spirit that made it special. And it won't change the world - but it might change the way you see the humans who live on it.

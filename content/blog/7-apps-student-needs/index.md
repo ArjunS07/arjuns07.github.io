@@ -3,7 +3,8 @@ title: "7 Apps Every Student Needs"
 date: 2022-02-25T20:01:39+05:30
 draft: false 
 showFullContent: false
-description: "A listicle on the software that can help you be more productive and efficient as a student."
+summary: "A listicle on the software that can help you be more productive and efficient as a student."
+tags: ["Productivity", "Roundups"]
 ---
 
 Being a student is hard. Your phone and the internet usually don't help make it easier, with their plethora of distractions luring you from deadlines. Believe it or not, though, there are some tools which dilute rather than augment disturbance, and improve rather than distract from your assignments - making your grades and productivity soar higher than they could without them.

@@ -5,7 +5,8 @@ draft: false
 showTableOfContents: true
 showHeadingAnchors: true
 showFullContent: false
-description: "An analysis of the current state of LLMs, and what Microsoft's plans with OpenAI's ChatGPT technology might mean for the technology's future."
+summary: "An analysis of the current state of LLMs, and what Microsoft's plans with OpenAI's ChatGPT technology might mean for the technology's future."
+tags: ["Deep Dives", "Artificial Intelligence"]
 ---
 
 Yesterday, [The Information reported](https://www.theinformation.com/articles/microsoft-and-openai-working-on-chatgpt-powered-bing-in-challenge-to-google) that Microsoft is planning to integrate ChatGPT, OpenAI’s breakthrough conversational AI, into Bing.
@@ -17,8 +18,6 @@ It’s still only an anonymous report from ‘a person familiar with the plans�
 This doesn’t make it any less interesting, though, because the exact manner in which Microsoft chooses to integrate ChatGPT into the Bing search interface, and how well their plans are executed, could be a defining moment in the development of generative AI.
 
 Microsoft’s going to have to be careful. Other big tech firms appear wary of the technology, and probably for good reason - notably, Google executives cited the [‘reputational risk’](https://www.theverge.com/2022/12/14/23508756/google-vs-chatgpt-ai-replace-search-reputational-risk) associated with generative models as a deterrent in launching their own chatbots into the public. And there's no shortage of valid reasons as to why.
-
-## The challenges faced by generative A.I. today
 
 There appear to be essentially three main problems associated with large language models (LLMs), like the GPT-3 model underlying ChatGPT, today:
 
@@ -34,13 +33,11 @@ The above two problems are probably what the Google executives were worried abou
 
 Even still, the computational resources required to run ChatGPT dwarf in comparison to what it takes to train an LLM. Even if the code for them was made publicly available - which it rarely is -  its use to developers for  fine-tuning and testing, and the extent to which an open-source ecosystem can be built around it, is restricted by the computational resources required to train these models. Previous developments in computer science eventually trickled down, but I’m not sure how long it’s going to take for the resources required to train something like that DALL-E 2 – 4 weeks on on 256 Nvidia V100 GPUs – to become accessible to the average research lab.
 
----
-
-## Why this matters
+But why does this matter?
 
 The reason why I think this is such a crucial moment in artificial intelligence is because Microsoft is going to have to reckon with each of these challenges for this integration to be successful.
 
-If they play it safe, they might be able to build something that rivals [Google’s Knowledge Graph](https://support.google.com/knowledgepanel/answer/9787176?hl=en). 
+If they play it safe, they might be able to build something that rivals [Google’s Knowledge Graph](https://support.google.com/knowledgepanel/answer/9787176?hl=en).
 
 That’d perhaps be useful, and definitely have a positive impact on the Bing user experience – but considering it’s something Google’s had since long before LLMs were mainstream technology, it's probably not something which Microsoft executives would see as a justification of their massive investment in OpenAI. Besides, it's not exactly the best application of ChatGPT. ChatGPT is tuned for guided conversation, not general NLP tasks like its underlying GPT-3 model.
 
@@ -50,21 +47,17 @@ It’s not yet known what exactly Microsoft’s vision is for ChatGPT in Bing, b
 
 In some sense, this use could be what some people are already using ChatGPT for (and which they’re advised against doing), but with the intent to address the pitfalls relating to veracity of information by tapping into Bing’s search data.
 
-### Microsoft knows what it's like for an AI experiment to go disastrously, publically, wrong
-
-For that to happen, though Microsoft is definitely going to have to find a way to deal with the second problem. They know all too well how letting an AI basing responses based on content on the internet can go disastrously wrong, being the same company who released a Twitter chatbot almost seven years ago which quickly became a [racist, hateful PR nightmare](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist), and probably set back the mainstream perception of chatbot technology by several years.
+For that to happen, though, Microsoft is definitely going to have to find a way to deal with the second problem. They know all too well how letting an AI basing responses based on content on the internet can go disastrously wrong, being the same company who released a Twitter chatbot almost seven years ago which quickly became a [racist, hateful PR nightmare](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist), and probably set back the mainstream perception of chatbot technology by several years.
 
 If Microsoft is able to make ChatGPT’s conversations tuned to search results, but their filters fail to control its output, the result and fallout will probably be far more consequential than anything else in artificial intelligence as a whole so far - probably not just damaging Microsoft and OpenAI, but also setting back the public and legislative perception of generative models as a whole.
 
-### OpenAI might get even closer to Microsoft
-
-Any kind of integration at this scale would make OpenAI more dependent on Microsoft, even more so than it already is.
+This is where the third problem comes in. Any kind of integration at this scale would make OpenAI more dependent on Microsoft, even more so than it already is.
 
 So far, generative models haven’t been at the centre of public-facing products for big tech companies. As soon as that happens, though, Microsoft is going to want to keep their secrets as close to their chest as they can.
 
 At the same time, OpenAI’s been at the forefront of public’s relationship with AI over the past few years - sure, competing services such as Midjourney have created a storm, but nothing like GPT (and its various iterations) as well as DALL-E have.
 
-Microsoft is the only major firm which OpenAI shares such a close relationship with. The two companies becoming more dependent on each other doesn’t spell good things for the transparency of the field of transformer models and generative AI in the near future.
+Microsoft is the only major firm which OpenAI shares such a close relationship with. The two companies becoming more dependent on each other doesn’t spell good things for transparency in the field of generative AI in the near future.
 
 I don’t think OpenAI will ever completely stop existing as an independent entity. At the same time, though, Microsoft has a history of not exactly embracing open relationships with developers, from the time they [shut down Atom](https://github.blog/2022-06-08-sunsetting-atom/) or when they [came under fire](https://www.theverge.com/2022/11/8/23446821/microsoft-openai-github-copilot-class-action-lawsuit-ai-copyright-violation-training-data) for using unlicensed code from GitHub to train Copilot.
 
@@ -76,10 +69,6 @@ As its ties to Microsoft increase, I think OpenAI can be expected to become incr
 
 That's why this might be the moment where a downward spiral in the transparency of generative models might begin. That would be bad news for everyone - it would make it much harder for researchers and developers to tinker with and resarch the technology, and would reduce the public's understanding of what exactly these increasingly influential pieces of technology are capable of.
 
----
+I don’t know if this claim will ever come to fruition, or if they do, to what extent. But I’m interested in seeing where this goes next. Because there are going to be an increasing number of inflection points like this in coming the years, as the reliability and sensitivity of LLMs is improved; and public, academic, and corporate entities struggle to balance their competing interests.
 
-## What this means in the long run
-
-I don’t know if this claim will ever come to fruition, or if they do, to what extent. But I’m interested in seeing where this goes next. Because there are going to be an increasing number of inflection points like this in coming the years, as transformer models improve their reliability and sensitivity; and the needs of public, academic, and corporate entities struggle to balance their competing interests.
-
-What generative models will be capable of, and what they’re being used for, in this decade is going to be defined by how moments like these end up affecting these stakeholders. The last decades of innovaton in artificial intelligence have happened in the open, and probably had a broadly positive impact. Moments like these will define its future in the decades to come.
+What generative models will be capable of, and what they’re being used for, in this decade is going to be defined by what decisions are made at inflection points like these. The last decades of innovaton in artificial intelligence have generally happened in the public sphere, and arguably positively impacted our world. Microsoft may now determine whether that's also going to be true for the decades to come.

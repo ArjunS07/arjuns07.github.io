@@ -32,12 +32,17 @@
             </div>
         </div>
 
-
-        <p class="mb-3 text-neutral-600 dark:text-neutral-300">
+        <!-- <p class="mb-3 text-neutral-600 dark:text-neutral-300">
             This is where you can read what I've written over the years on <a
                 class="font-semibold text-primary-700 dark:text-primary-400" href="/blog">my blog</a>, check out <a
                 href="/projects" class="font-semibold text-primary-700 dark:text-primary-400">
                 projects</a> I've worked on, and <a href="/about"
+                class="font-semibold text-primary-700 dark:text-primary-400">
+                find out about me</a>.
+        </p> -->
+        <p class="mb-3 text-neutral-600 dark:text-neutral-300">
+            This is where you can read what I've written over the years on <a
+                class="font-semibold text-primary-700 dark:text-primary-400" href="/blog">my blog</a> and <a href="/about"
                 class="font-semibold text-primary-700 dark:text-primary-400">
                 find out about me</a>.
         </p>
@@ -53,7 +58,7 @@
 
 <h1 class="mb-12 font-medium text-black text-md">
     <a href="/blog">Read more posts
-        <span class="ml-1">
+        <span class="ml-1 dark:fill-neutral-200">
             {{ partial "icon.html" "arrow-right-solid" }}
         </span>
     </a>
@@ -61,7 +66,7 @@
 
 
 <div>
-    <h3 class="mb-1 text-xl font-extrabold">Sign up for my mailing list</h3>
+    <h3 class="mb-1 text-xl font-extrabold">Subscribe to my mailing list</h3>
     <p class="mb-4 text-neutral-600 dark:text-neutral-300">Get my latest blog posts delivered directly to your inbox. No
         spam, I promise!</p>
     {{- partial "subscribe.html" . -}}

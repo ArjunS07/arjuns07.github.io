@@ -3,7 +3,8 @@ title: "AI's increasing role in facing agricultural challenges: a multi-part ser
 date: 2020-10-25T20:01:39+05:30
 draft: false
 showFullContent: false
-description: "A multi-part exploration for the Inspirit AI Ambassador program on the applications of AI in agriculture."
+summary: "A multi-part exploration for the Inspirit AI Ambassador program on the applications of AI in agriculture."
+tags: ["Artificial Intelligence", "Deep Dives"]
 ---
 
 _This was a multi-part series focusing on the applications of AI on one particular sector that I wrote as part of the Insprit AI program. I've compiled them here into one post._
@@ -11,14 +12,14 @@ _This was a multi-part series focusing on the applications of AI on one particul
 ## Part One: Why agriculture faces challenges today, and what those are
 
 Being one of the significant challenges facing humanity in the present day as we look towards the future, food supply and agriculture are ripe to be transformed by the continuous innovations and progress in artificial intelligence to allow us to achieve the ambitious goal of producing seventy percent more food than today.
-In this first instalment of a three-part series, we’ll take a deep dive into the problems being faced by the agriculture industry in the present day — and a sneak peek at some of the groundbreaking solutions to these modern-day challenges.
+In this first instalment of a three-part series, we’ll take a Deep Dives into the problems being faced by the agriculture industry in the present day — and a sneak peek at some of the groundbreaking solutions to these modern-day challenges.
 
 ### Is this the right place to be putting resources?
 
 Agriculture isn’t a small industry by any means — nor is it inconsequential. Apart from employing 1.3 billion people worldwide, the UN’s Sustainable Development Goals goal of zero hunger by 2030 will be improbable without significantly improved agricultural output and efficiency across the globe.
 As much as progress has occurred in agricultural technologies in the recent past, there remains much untapped potential for improvements and disruption.
 
-In this post, we’ll take a deep dive into those problems.
+In this post, we’ll take a Deep Dives into those problems.
 
 ### 1 - Ineffective resource allocation
 
@@ -51,7 +52,7 @@ These are just some of the several challenges faced by the increasingly vital ag
 ## Parts 2 and 3: AI-Driven Solutions for Agriculture Problems
 
 In the previous article of this series, we took a look at several of the problems agriculture faces as it tries to scale to adapt to 21st-century demand.
-Now, over the next two articles, we’ll take a deep dive into the innovative solutions that have manifested to resolve these pivotal issues.
+Now, over the next two articles, we’ll take a Deep Dives into the innovative solutions that have manifested to resolve these pivotal issues.
 
 ## Problem: Resource Allocation
 

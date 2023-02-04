@@ -3,7 +3,8 @@ title: "Hidden gems on the technological internet to visit"
 date: 2020-09-20T20:01:49+05:30
 draft: false
 showFullContent: false
-description: "A list of newsletters, blogs and YouTube channels that deserve a visit from any tech enthusiast"
+summary: "A list of newsletters, blogs and YouTube channels that deserve a visit from any tech enthusiast"
+tags: ["Roundups"]
 ---
 
 The tech world's little corner on the internet has its own share of big names who dominate the YouTube algorithm and where people read their headlines. But apart from the Verges and Linus Tech Tips of the world, there are several less prominent and less mainstream avenue for technology-related analysis and news. This article aims to highlight a few that I've come across which play a crucial role in informing my knowledge and perspective on technology.
@@ -45,4 +46,4 @@ Of the plethora of tech reviewers who rush to get their reviews out as fast as p
 ### Podcasts
 
 Waveform
-Waveform is hosted by Marques Brownlee, whose youtube status has made him legendary and whose hour-long deep dives on this podcast with fellow co-host Andrew Manganelli are a must for anyone with an hour and an interest in learning more about the headlines of the week. In addition, several guests are brought onto the show for exclusive interviews or extended versions of interviews that appear on his YouTube channel. Just last week Mark Zuckerberg made a guest appearance.
+Waveform is hosted by Marques Brownlee, whose youtube status has made him legendary and whose hour-long Deep Divess on this podcast with fellow co-host Andrew Manganelli are a must for anyone with an hour and an interest in learning more about the headlines of the week. In addition, several guests are brought onto the show for exclusive interviews or extended versions of interviews that appear on his YouTube channel. Just last week Mark Zuckerberg made a guest appearance.
