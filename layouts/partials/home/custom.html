@@ -47,9 +47,18 @@
 
 
 
-<div class="mb-12 md:mb-15">
+<div class="mb-6 md:mb-15">
     {{ partial "recent-articles.html" . }}
 </div>
+
+<h1 class="mb-12 font-medium text-black text-md">
+    <a href="/blog">Read more posts
+        <span class="ml-1">
+            {{ partial "icon.html" "arrow-right-solid" }}
+        </span>
+    </a>
+</h1>
+
 
 <div>
     <h3 class="mb-1 text-xl font-extrabold">Sign up for my mailing list</h3>

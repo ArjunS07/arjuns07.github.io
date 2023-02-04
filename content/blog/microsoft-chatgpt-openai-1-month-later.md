@@ -3,10 +3,10 @@ title: "Microsoft, ChatGPT, and OpenAI: One Month Later"
 date: 2023-02-03T23:49:01+05:30
 draft: false
 showFullContent: true
-description: "A look at what's happened in generative AI since I last wrote about it a month ago, and what it means for big tech."
+desc: "A look at what's happened in generative AI since I last wrote about it a month ago, and what it means for big tech."
 ---
 
-Exactly one month ago, [I wrote](/blog/microsoft-chatgpt-language-bing) about how the success of ChatGPT and Microsoft's (almost concerningly) close relationship with OpenAI is going to put pressure on rival firms to release their own language models and might mark a turning point in generative AI.
+Almost exactly one month ago, [I wrote](/blog/microsoft-chatgpt-language-bing) about how the success of ChatGPT and Microsoft's (almost concerningly) close relationship with OpenAI is going to put pressure on rival firms to release their own language models and might mark a turning point in generative AI.
 
 A few things of note have happened since then:
 
