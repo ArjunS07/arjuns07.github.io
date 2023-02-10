@@ -1,5 +1,5 @@
 ---
-title: "Bing's planned ChatGPT integration might shape the future of generative A.I."
+title: "Bing's planned ChatGPT integration will shape the future of generative A.I."
 date: 2023-01-04T23:47:13+05:30
 draft: false
 showTableOfContents: true
@@ -22,8 +22,10 @@ Microsoft’s going to have to be careful. Other big tech firms appear wary of t
 There appear to be essentially three main problems associated with large language models (LLMs), like the GPT-3 model underlying ChatGPT, today:
 
 1. **Veracity** – Even within mainstream circles, interest in ChatGPT’s genuinely impressive generative abilities are balanced by a general understanding to take what it says with a grain of salt.
-   If you prompt it with a question that’s based on a false factual premise, it’ll still [confidently make up](https://mashable.com/article/chatgpt-amazing-wrong) an answer spewing false information.
-   Because of how the model works – it’s trained on a large corpus of texts and doesn’t directly refer to anything in its training set when prompted – [it also makes up false references](https://news.ycombinator.com/item?id=33841672) when asked to provide sources. In short, it refuses to acknowledge factual shortcomings and inaccuracies. OpenAI CEO Sam Altman himself [cautioned](https://twitter.com/sama/status/1601731295792414720) that the model is ‘incredibly limited’ for anything ‘factual’.
+
+If you prompt it with a question that’s based on a false factual premise, it’ll still [confidently make up](https://mashable.com/article/chatgpt-amazing-wrong) an answer spewing false information.
+
+Because of how the model works – it’s trained on a large corpus of texts and doesn’t directly refer to anything in its training set when prompted – [it also makes up false references](https://news.ycombinator.com/item?id=33841672) when asked to provide sources. In short, it refuses to acknowledge factual shortcomings and inaccuracies. OpenAI CEO Sam Altman himself [cautioned](https://twitter.com/sama/status/1601731295792414720) that the model is ‘incredibly limited’ for anything ‘factual’.
 
 2. **Insensitivity** – OpenAI’s added enough guardrails to attempt to prevent the model from generating anything problematic (whether those are imitations of humans or hateful tirades) to the point where they can impede legitimate uses of the technology. However, that doesn’t mean there aren’t ways to trick it - with some not-so-difficult prompt engineering, people have [gotten](https://twitter.com/zswitten/status/1598380220943593472) [around](https://www.newstatesman.com/quickfire/2022/12/chatgpt-shows-ai-racism-problem) those filters.
 
@@ -31,7 +33,7 @@ The above two problems are probably what the Google executives were worried abou
 
 3. **Closed-sourceness** – LLMs are increasingly inaccessible to anyone who's interested in tinkering or experimenting with them. Despite their name, OpenAI in particular has been rather opaque on the exact working of their most important breakthroughs - notably, Microsoft has an [exclusive licence](https://blogs.microsoft.com/blog/2020/09/22/microsoft-teams-up-with-openai-to-exclusively-license-gpt-3-language-model/) to the code behind GPT-3. OpenAI’s also heavily reliant on Microsoft Azure for the infrastructure powering their services and for training the model, which is estimated to cost $3 million / day .
 
-Even still, the computational resources required to run ChatGPT dwarf in comparison to what it takes to train an LLM. Even if the code for them was made publicly available - which it rarely is -  its use to developers for  fine-tuning and testing, and the extent to which an open-source ecosystem can be built around it, is restricted by the computational resources required to train these models. Previous developments in computer science eventually trickled down, but I’m not sure how long it’s going to take for the resources required to train something like that DALL-E 2 – 4 weeks on on 256 Nvidia V100 GPUs – to become accessible to the average research lab.
+Even still, the computational resources required to run ChatGPT dwarf in comparison to what it takes to train an LLM. Even if the code for them was made publicly available - which it rarely is - its use to developers for fine-tuning and testing, and the extent to which an open-source ecosystem can be built around it, is restricted by the computational resources required to train these models. Previous developments in computer science eventually trickled down, but I’m not sure how long it’s going to take for the resources required to train something like that DALL-E 2 – 4 weeks on on 256 Nvidia V100 GPUs – to become accessible to the average research lab.
 
 But why does this matter?
 
