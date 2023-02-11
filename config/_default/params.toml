@@ -3,7 +3,7 @@
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
 colorScheme = "ocean"
-defaultAppearance = "light" # valid options: light or dark
+defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableSearch = true
@@ -21,29 +21,29 @@ mainSections = ["blog"]
   showCopyright = true
   showThemeAttribution = false
   showAppearanceSwitcher = true
-  showScrollToTop = false
+  showScrollToTop = true
 
 [homepage]
   layout = "custom" # valid options: page, profile, custom
   showRecent = true
-  recentLimit = 3
+  recentLimit = 5
 
 [article]
   showDate = true
   showDateUpdated = false
-  showAuthor = false
+  showAuthor = true
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
-  showHeadingAnchors = false
+  showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = true
-  showWordCount = false
+  showWordCount = true
   showComments = false
   # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 
@@ -53,7 +53,7 @@ mainSections = ["blog"]
   showTableOfContents = false
   showTaxonomies = true
   groupByYear = true
-  paginationWidth = 2
+  paginationWidth = 5
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]

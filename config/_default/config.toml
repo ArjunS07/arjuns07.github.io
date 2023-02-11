@@ -7,10 +7,10 @@ theme = "congo"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 5
+paginate = 6
 summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-# googleAnalytics = 'G-7M57457MP9'
+googleAnalytics = 'G-7M57457MP9'
