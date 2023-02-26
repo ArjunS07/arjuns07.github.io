@@ -7,6 +7,7 @@ layout: "simple"
 weight: 100
 timeline: "June – August 2022"
 url: "sih" # define a short URL for easy sharing
+xml: false
 ---
 
 I built **EduDaan**, a volunteer tutoring mobile app, for the [Junior Smart India Hackathon](https://sih.gov.in) 2022, which was organised by the innovation cell of the Indian Government's Ministry of Education. The app was one of 5 winners in the 'Smart Education category', and one of 50 winners in total, amongst 3000+ submissions, in the grand finale of the hackathon.
@@ -20,8 +21,7 @@ You can check out the code I wrote for the [backend](https://github.com/ArjunS07
 The best way to learn about the app is to check out the presentation I gave to the judges in the grand finale:
 
 {{< raw-html >}}
-
-<iframe src="/sih/edudaan_app_presentation_finals.pdf" width="100%" height="650px"> </iframe>
+<iframe src="/sih/edudaan_app_presentation_sih.pdf" width="100%" height="650px"> </iframe>
 {{< /raw-html >}}
 
 Some screenshots from the app are included below, and you can find a full folder [here](https://www.dropbox.com/sh/967xcf0lpur900e/AADiW5OEy_6xRFNqo9dOLUVHa?dl=0).

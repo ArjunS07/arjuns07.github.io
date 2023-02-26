@@ -7,6 +7,8 @@ layout: "simple"
 timeline: "September – October 2022"
 weight: 300
 url: "bx-22"
+xml: false
+
 ---
 
 In my post of Secretary of ICT at my school, I was one of the three lead organising committee members at ShriTeq 2022 - my school's annual inter-school technology competition. We were responsible for every aspect of it from start to finish, which included coming up with and implementing what eventually amounted to around fourteen events.

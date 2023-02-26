@@ -7,6 +7,8 @@ layout: "simple"
 thumbnail: "images/roc_fig_2.png"
 weight: 700
 url: "fn-paper"
+xml: false
+
 ---
 
 In 2021, I worked on a computer science research paper on the topic of fake news detection under an assistant profesor in the Polygence program.

@@ -7,6 +7,7 @@ summary: "A review of Weir's latest novel and what it has to say about humanity.
 tags: ["Reviews"]
 ---
 
+
 _This review contains spoilers for all of 'Project Hail Mary' by Andy Weir. Now's the time to look away if you plan to read it but haven't yet!_
 
 If you're familiar with Andy Weir's past work, _Project Hail Mary_ shouldn't appear surprising.

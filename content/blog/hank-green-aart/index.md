@@ -17,11 +17,12 @@ That's not all that the story's about, though. An Absolutely Remarkable Thing is
 
 It's also a perfect lens through which to understand the current moment in culture, politics, and humanity - as the book points out, the Carls are the perfect blank slate on which to project all of your pre-existing notions and biases and manufacture a culture war around.
 
-That is, of course, if Green's lens is the one through which you wish to view that moment.
+That is, of course, if Green's lens is the one through which you wish to hear this discourse about the current state of societies. As a renowned vlogger, online educator and entrepreneur, he's experienced some degree of the kind of internet fame the narrator experiences in the book – and while he and April aren't the same, there are times when the voices of the narrator and the author appear to merge - like when April lists what she sees as the '5 tiers of fame' or says that 'pundits don’t want to talk about what’s happened; they want to use what’s happened to talk about the same things they talk about every day'. This doesn't necessarily detract from the book. It does, however, make clear that the story wishes to inform its readers in a particular way.
 
-Green is a renowned vlogger, online educator and entrepreneur who's experienced some degree of the internet fame he describes in the book. At times, the voice of the narrator and Green himself appear to merge - like when April lists what she sees as the '5 tiers of fame' or says that 'pundits don’t want to talk about what’s happened; they want to use what’s happened to talk about the same things they talk about every day'. This doesn't necessarily detract from the book. It does, however, make clear that the story wishes to inform its readers in a particular way.
+{{< youtube id="DgNSTBDEV4U" autoplay="false">}}
+_A video by Hank Green from 2016 – two years before this book was published – echoing many of its ideas about online culture, politics, and meaning._
 
-But not shying away from toeing the line is precisely what makes this book so special. Ultimately, the story's villain isn't Carl or even the extremists and assassins who emerge from the culture war. It's fame itself.
+But not shying away from toeing the line is precisely what makes this story so special. Ultimately, its true villain isn't Carl or the extremists or the pundits who emerge from the culture war. It's fame itself.
 
 It's abundantly clear that Green's trying to accomplish more than writing a cool sci-fi story about alien robots or a piece about the culture war as it exists today.
 

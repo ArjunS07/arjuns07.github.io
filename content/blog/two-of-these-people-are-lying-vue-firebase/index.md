@@ -1,27 +1,29 @@
 ---
-title: "Tom Scott's 'Two of These People are Lying' is great, so I built it with Vue.js and Pocketbase."  
+title: "Two of These People are Lying: building Tom Scott's game show in Vue.js and Pocketbase."  
 date: 2022-12-04T13:36:19+05:30
 draft: true
 tags: ["Vue.js", "Tutorial"]
 ---
 
-The endeavour to  of the Hank and John]() which are, in essence, a delightful pursuit of splendidly unhelpful information.
+Perhaps most dedicated to this pursuit of knowledge of the splendidly impractical knowledge are [_Tom Scott and The Technical Difficulties_](https://www.youtube.com/channel/UCO-zhhas4n_kAPHaeLe1qnQ), who've been producing a variety of creative game shows and trivia series on YouTube for almost a decade now.
 
-Perhaps most dedicated to this pursuit of knowledge of the splendidly impractical are [_Tom Scott and The Technical Difficulties_](), who've been producing a variety of creative game shows and trivia series on YouTube for a decade and a half now. [Two of These People are Lying]() is a delight to watch. The rules of the game are as follows:
+[Two of These People are Lying](https://www.youtube.com/playlist?list=PLfx61sxf1Yz2I-c7eMRk9wBUUDCJkU7H0), while it lasted from 2019 to 2021, was for me the pinnacle of these exploits. I'm not sure if knowledge is power – I don't know how much more powerful I am for now knowing about [Willoughby Run](https://www.youtube.com/watch?v=TdtFzHBY4v0) and [Lentokenttä](https://www.youtube.com/watch?v=3UAOs9B9UH8) – but TOTPAL shows that knowledge sure as hell is a lot of fun.
+
+The rules of the game are as follows:
 
 * 3 people pick out random Wikipedia articles, and write the titles of those articles onto chits which they put in a bowl
 * The other player is the 'guesser'. They pick out a random chit and read out the title written on it
 * All three players must attempt to convince the guesser that was the article they chose, by answering questions about the supposed contents of it
 * The guesser must attempt to deduce which of these players is telling the truth, and which two are lying
 
-When you're able to do this physically – complete with chits and a bowl – this works great, and tends to result in tirades of [hilarious banter](). The problem is when factors beyond your control – say, a pandemic – stop you from doing that. This game essentially requires:
+When you're able to do this physically – complete with chits and a bowl – this works great. The problem is when factors beyond your control – say, a pandemic – stop you from doing that. This game essentially requires:
 
 * An interface for easily generating random encyclopedia articles
 * A way of putting the titles of those articles into a 'bowl'
 * A way to randomly select one of those titles
 * An interface for the guesser to keep track of people they're asking questions of
 
-I realise that, to some extent, the point of this game is for its participants to not have to rely on technology actually play it. And I'm about three years too late to getting around to making this. But I don't plan to be the first programmer to bother for irrelevant side details such as a clear use case or the consideration that some problems don't need a computer to solve them. This, then, is how I plan to spend several wild, precious hours from my wild, precious life.
+I'm three years late to the party, and I realise that any target audience for this kind of platform has by now evaporated if it ever even existed – but who am I to be the first developer to concern themselves with justifying the existence of a side project?
 
 ## The plan
 

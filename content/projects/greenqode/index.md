@@ -7,6 +7,8 @@ layout: "simple"
 timeline: "March 2022 – Present"
 weight: 200
 url: "gq"
+xml: false
+
 ---
 
 {{< alert "link" >}}
