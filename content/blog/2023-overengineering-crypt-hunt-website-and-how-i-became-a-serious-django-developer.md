@@ -1,6 +1,6 @@
 ---
-title: "Bad tab management was taking over my life. Then I discovered Arc."
-date: 2023-02-22T10:51:43+05:30
+title: "Overengineering a crypt hunt website, and on becoming a Serious Django Developer"
+date: 2023-04-30T00:51:33+05:30
 draft: true
 description: "" # used in HTML metadata
 summary: "" # used in website

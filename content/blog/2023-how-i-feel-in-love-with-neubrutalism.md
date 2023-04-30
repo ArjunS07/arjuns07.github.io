@@ -1,10 +1,10 @@
 ---
-title: "ShriTeq 2022"
-date: 2022-10-25T19:44:52+05:30
+title: "How I Fell in Love With Neubrutalism"
+date: 2023-04-30T00:51:46+05:30
 draft: true
 description: "" # used in HTML metadata
 summary: "" # used in website
 keywords: [] # used in HTML metadata
-tags: ["Megabye"] # used in website
+tags: [] # used in website
 ---
 
