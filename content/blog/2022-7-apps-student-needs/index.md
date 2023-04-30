@@ -15,7 +15,7 @@ It's likely that at some point, you've tried to make notes to help you revise, o
 
 That's where Notion comes in. Notion is a free app for all major desktop and mobile platforms which allows you to create well-organised notes, in addition to a plethora of other features.
 
-{{< figure src="/blog/7-apps-student-needs/notion-toggle-headings-notionvip.gif" caption="Image via [NotionVIP](https://www.notion.vip/unwrapping-notions-newest-features/)" >}}
+{{< figure src="/blog/2022-7-apps-student-needs/notion-toggle-headings-notionvip.gif" caption="Image via [NotionVIP](https://www.notion.vip/unwrapping-notions-newest-features/)" >}}
 
 What makes it most appealing for note-takers is its toggle feature - letting you add revision questions in your notes which hide their answers, get a quick overview of points without having to see all of their sub-points, and much more.
 
@@ -23,7 +23,7 @@ Get Notion [here](https://www.notion.so/).
 
 ## 2. Dark Reader
 
-{{< figure src="/blog/7-apps-student-needs/darkreader.png" caption="Image via [Dark Reader](https://darkreader.org/)" >}}
+{{< figure src="/blog/2022-7-apps-student-needs/darkreader.png" caption="Image via [Dark Reader](https://darkreader.org/)" >}}
 
 What you put on your notes and documents often depends on your internet-browsing skills, but it's hard to that if your eyes feel like they're being burnt to a crisp by site with their blistering white backgrounds and high-contrast design language.
 
@@ -33,7 +33,7 @@ Get Dark Reader [here](https://chrome.google.com/webstore/detail/dark-reader/eim
 
 ## 3. TabCopy
 
-{{< figure src="/blog/7-apps-student-needs/tabcopy.jpeg" caption="Image via [TabCopy](https://chrome.google.com/webstore/detail/tabcopy/micdllihgoppmejpecmkilggmaagfdmb)" >}}
+{{< figure src="/blog/2022-7-apps-student-needs/tabcopy.jpeg" caption="Image via [TabCopy](https://chrome.google.com/webstore/detail/tabcopy/micdllihgoppmejpecmkilggmaagfdmb)" >}}
 
 We've all been there: dozens, if not hundreds of tags stacked all across our browser windows, as we leave them open due to a paranoia of losing those oh-so-precious research papers and Stack Exchange answers buried deep inside the chaos.
 
@@ -43,7 +43,7 @@ Get TabCoy [here](https://chrome.google.com/webstore/detail/tabcopy/micdllihgopp
 
 ## 4. Video Speed Controller
 
-{{< figure src="/blog/7-apps-student-needs/videospeed.jpeg" caption="Image via [Video Speed Controller](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk)" >}}
+{{< figure src="/blog/2022-7-apps-student-needs/videospeed.jpeg" caption="Image via [Video Speed Controller](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk)" >}}
 
 My personal favourite on this list, this Chrome extension has no doubt saved countless hours when blitzing through revision videos, or has helped rationalise the guilt of bingewatching a TV show the day before an exam – by enabling you to pump up the speed on any HTML5 video – including YouTube, Netflix, Prime Video, Disney+, and Twitter – to up to 16x the original speed.
 
@@ -53,7 +53,7 @@ Get Video Speed Controller [here](https://chrome.google.com/webstore/detail/vide
 
 ## 5. Noisli
 
-{{< figure src="/blog/7-apps-student-needs/noisli.jpeg" caption="Image via [Noisli](https://www.noisli.com/)" >}}
+{{< figure src="/blog/2022-7-apps-student-needs/noisli.jpeg" caption="Image via [Noisli](https://www.noisli.com/)" >}}
 
 Staying focused through that hard work, though, is always difficult. Nosili is a website that provides up to 1.5 hours per day of free, highly customisable background audio to focus to, drowning out external distractions and noise – letting you focus on the task at hand.
 
@@ -61,7 +61,7 @@ Get Noisli [here](https://www.noisli.com/).
 
 ## 6. Forest
 
-{{< figure src="/blog/7-apps-student-needs/forest.png" >}}
+{{< figure src="/blog/2022-7-apps-student-needs/forest.png" >}}
 
 This browser extension is another productivity booster that boosts your incentive to focus by planting a virtual tree that dies when you visit sites on your blocklist or stray anywhere from your allowlist - a surprisingly potent way to ensure that you don't end up sinking time into the many distractions the internet is teeming with.
 
@@ -69,7 +69,7 @@ Get Forest [here](https://www.forestapp.cc/).
 
 ## 7. Sleepyti.me
 
-{{< figure src="/blog/7-apps-student-needs/sleepytime.png" caption="Image via [Sleepyti.me](https://sleepyti.me/)" >}}
+{{< figure src="/blog/2022-7-apps-student-needs/sleepytime.png" caption="Image via [Sleepyti.me](https://sleepyti.me/)" >}}
 
 After all that hard work, you deserve a good night's rest which'll allow you to wake up in the morning. The doctor-recommended minimum of eight hours of sleep doesn't always ensure that you don't feel groggy — it turns out that if you wake up in a middle of one of your 'sleep cycles', you end up feeling tired when awake, but if you wake up right between cycles, you'll likely be not groggy but instead well-rested.
 

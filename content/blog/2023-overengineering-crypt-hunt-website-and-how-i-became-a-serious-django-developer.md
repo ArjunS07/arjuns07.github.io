@@ -1,5 +1,5 @@
 ---
-title: "Overengineering a crypt hunt website, and on becoming a Serious Django Developer"
+title: "Overengineering a crypt hunt website, and how I became a Serious Django Developer"
 date: 2023-04-30T00:51:33+05:30
 draft: true
 description: "" # used in HTML metadata

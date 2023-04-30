@@ -1,5 +1,5 @@
 ---
-title: "Microsoft, ChatGPT, and OpenAI: One Month Later"
+title: "Microsoft, ChatGPT, and OpenAI: One month later"
 date: 2023-02-03T23:49:01+05:30
 draft: false
 showFullContent: false

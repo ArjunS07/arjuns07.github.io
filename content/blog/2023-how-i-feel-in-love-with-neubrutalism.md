@@ -1,5 +1,5 @@
 ---
-title: "How I Fell in Love With Neubrutalism"
+title: "Gauche, ostentatious, and an existential challenge to the modern web: how neubrutalism won me over."
 date: 2023-04-30T00:51:46+05:30
 draft: true
 description: "" # used in HTML metadata

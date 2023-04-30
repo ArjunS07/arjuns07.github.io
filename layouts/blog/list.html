@@ -37,7 +37,8 @@
             {{ range .Pages }}
             <article class="max-w-full mb-8">
                 <header>
-                    <a class="mt-0 mb-1 text-lg font-bold text-neutral-900 dark:text-neutral" href="{{ .RelPermalink }}">
+                    <a class="mt-0 mb-1 text-2xl font-semibold text-neutral-900 dark:text-neutral"
+                        href="{{ .RelPermalink }}">
                         {{ .Title | emojify }}
                     </a>
 
@@ -45,13 +46,10 @@
                         {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
                     </div>
                 </header>
-                {{ if .Params.ShowFullContent }}
-                <section class="max-w-full mt-3 leading-relaxed prose prose-base dark:prose-invert">
+                <section class="max-w-full mt-3 leading-relaxed prose dark:prose-invert">
                     {{ .Content | emojify }}
                 </section>
                 <p class="mt-4 w-full font-bold text-center text-md text-neutral-400 tracking-[0.75em]">***</p>
-                {{ end }}
-                
             </article>
             {{ end }}
             {{ end }}
