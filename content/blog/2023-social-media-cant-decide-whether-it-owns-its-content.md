@@ -1,9 +1,9 @@
 ---
-title: "More than ever, the social internet must decide who owns their content"
+title: "Social media"
 date: 2023-04-27T00:36:46+05:30
 draft: true
-description: Reddit's principled stance against the use of their data to train generative AI brings some up old questions about the internet as it confronts a new existential threat"
-summary: "Reddit's principled stance against the use of their data to train generative AI brings some up old questions about the internet as it confronts a new existential threat" # used in website
+description: "Reddit's principled stance against the use of their data to train generative AI brings some up old questions about the internet as it confronts a new existential threat"
+summary: "Generative AI challenges age-old structures of the internet as sites like Reddit begin to reckon with what generative AI technologies mean for their service" # used in website
 keywords: ["chatgpt", "section 230", "internet", "social media"] # used in HTML metadata
 tags: ["Artificial Intelligence"] # used in website
 ---

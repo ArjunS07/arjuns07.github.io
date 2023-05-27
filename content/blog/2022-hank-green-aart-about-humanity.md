@@ -28,6 +28,6 @@ It's abundantly clear that Green's trying to accomplish more than writing a cool
 
 It's about the best that humanity is capable of when enabled by technologies like the internet to encourage positive communities and when those same technologies can rip lives, politics, and countries apart.
 
-It'd be hard to argue that _An Absolutely Remarkable Thing_ is a masterpiece of a political commentary or that it's capable of satisfying a hardcore science fiction audience like _Seveneves_ or _Red Mars_ can. But in pulling the best elements from both of those genres, it's a unique and compelling narrative on the present moment that's worth reading for anyone interested in understanding what it means in this era defined by unprecedented levels of access to information and communications technologies to be human.
+It'd be hard to argue that _An Absolutely Remarkable Thing_ is a masterpiece of a political commentary or that it's capable of satisfying a hardcore science fiction audience like _Seveneves_ or _Red Mars_ can. But in pulling the best elements from both of those genres, it's a compelling narrative for anyone interested  what it means, in an era of unprecedented levels of access to information and communications technologies, to be human.
 
 And based on what Green seems to be trying to say, that should be everyone.

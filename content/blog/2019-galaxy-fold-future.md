@@ -1,10 +1,13 @@
 ---
+
 title: "The Galaxy Fold showed us the future but reinforced the present"
 date: 2019-02-25T20:31:49+05:30
 draft: false
 showFullContent: false
 summary: "Samsung's Galaxy Fold showed an exciting technology that isn't yet ready for the world we live in."
+
 ---
+
 After delaying the shipping date of the Samsung Galaxy Fold to early May, Samsung has now indefinitely delayed their long-awaited foldable Galaxy Fold. This comes in the wake of the breaking of review units sent to various media outlets. Samsung has to review the device's structural integrity.
 
 Rewind five months to last November, when Samsung first demonstrated its prototype foldable smartphone technology on stage, there was much hype in tech community. And it was justified - after all, the prototype had given us a glimpse of technology of the future, even if in its crudest form. That's where it should have ended. Even though we had seen the technology that Samsung had, we all knew that the technology was surely not ready for the real world as a consumer product.
