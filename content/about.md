@@ -7,9 +7,8 @@ layout: "simple"
 # showReadingTime: false
 ---
 
-I'm an 11th-grade student at The Shri Ram School, Moulsari, in Delhi NCR, India. I've been programming in some way or the other since I was eleven years old, and today, am the head of my school's computer society, Megabyte.
+I'm a 12th-grade student at The Shri Ram School, Moulsari, in Delhi NCR, India. I've been programming in some way or the other since I was eleven years old, and today, am the head of my school's computer society, Megabyte.
 
-Aside from tech, I like learning about just about anything. If I'm not at my terminal, you'll usually find me on obscure Wikipedia rabbit holes, bingewatching _Computerphile_ and _3blue1brown_ videos, or curled up with a sci-fi or historical fiction book.
 
 ### On blogging
 

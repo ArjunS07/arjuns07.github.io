@@ -7,7 +7,7 @@ desc: "A look at what's happened in generative AI since I last wrote about it a 
 tags: ["Artificial Intelligence"]
 ---
 
-Almost exactly one month ago, [I wrote](/blog/microsoft-chatgpt-language-bing) about how the success of ChatGPT and Microsoft's (almost concerningly) close relationship with OpenAI is going to put pressure on rival firms to release their language models and might mark a turning point in generative AI.
+Almost exactly one month ago, [I wrote](/blog/2023-microsoft-chatgpt-language-bing) about how the success of ChatGPT and Microsoft's (almost concerningly) close relationship with OpenAI is going to put pressure on rival firms to release their language models and might mark a turning point in generative AI.
 
 A few things of note have happened since then:
 
@@ -17,7 +17,7 @@ A few things of note have happened since then:
   
   * They've [launched 'Teams Premium'](https://www.theverge.com/2023/2/2/23582610/microsoft-teams-premium-openai-gpt-features), which includes, amongst other features, automatic generation of notes, tasks, and meeting highlights using GPT-3.5.
   
-  * Screenshots of what will most likely be Microsoft's ChatGPT-powered version of Bing that [leaked yesterday](https://www.theverge.com/2023/2/3/23584675/microsoft-ai-bing-chatgpt-screenshots-leak), which include branding of Bing as an 'AI-powered search engine', and which show a version of ChatGPT that – as was speculated [on this blog](/blog/microsoft-chatgpt-language-bing) and by several others – pulls data directly from the web to generate responses, and, more importantly, is capable of citing its sources.
+  * Screenshots of what will most likely be Microsoft's ChatGPT-powered version of Bing that [leaked yesterday](https://www.theverge.com/2023/2/3/23584675/microsoft-ai-bing-chatgpt-screenshots-leak), which include branding of Bing as an 'AI-powered search engine', and which show a version of ChatGPT that – as was speculated [on this blog](/blog/2023-microsoft-chatgpt-language-bing) and by several others – pulls data directly from the web to generate responses, and, more importantly, is capable of citing its sources.
 
 In what's been a very successful January for Microsoft – their stock is up 12.77% over the past month – there's one rival of theirs that is conspicuously absent from the mainstream conversation about generative AI.
 

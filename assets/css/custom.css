@@ -1,3 +1,7 @@
 html, body {
-    font-family: 'Ubuntu', 'system-ui', sans-serif;
+    font-family: 'Bitter', 'system-ui', sans-serif;
+}
+
+blockquote {
+    font-weight: 400 !important;
 }
