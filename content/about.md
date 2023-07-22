@@ -7,7 +7,7 @@ layout: "simple"
 # showReadingTime: false
 ---
 
-I'm a 12th-grade student at The Shri Ram School, Moulsari, in Delhi NCR, India. I've been programming in some way or the other since I was eleven years old, and today, am the head of my school's computer society, Megabyte.
+I'm a 12th-grade student in Delhi NCR, India. I've been programming in some way or the other since I was eleven years old, and today, am the head of my school's computer society, Megabyte.
 
 
 ### On blogging
@@ -32,4 +32,4 @@ I've since written dozens of posts about tech news, media, and a whole lot more,
 * _**The Conquerer**_ series by Conn Iggulden
 * _**Creative Selection**: Inside Apple's Design Process During the Golden Age of Steve Jobs_ by Ken Kocienda
 
-_This site was made with a customised build of the [Congo theme](https://github.com/jpanther/congo) for the [Hugo](gohugo.io) static-site generator_.
+_This site was made with a customised build of the [Congo theme](https://github.com/jpanther/congo) for the [Hugo](gohugo.io) static-site generation framework_.
