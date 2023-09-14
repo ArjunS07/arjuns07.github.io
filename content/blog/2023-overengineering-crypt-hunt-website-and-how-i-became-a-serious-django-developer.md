@@ -1,25 +1,31 @@
 ---
-title: "Overengineering a Crypt Hunt: on *best practices*, and the becoming of a Serious Django Developer"
+title: "Overengineering a Crypt Hunt: on /best practices/ and the evolution of a Django developer"
 date: 2023-04-30T00:51:33+05:30
 draft: true
 description: "" # used in HTML metadata
+showFullContent: false 
 summary: "" # used in website
 keywords: [] # used in HTML metadata
-tags: [] # used in website
+tags: ["Deep Dives", "Experiences", "Programming", "Django", "Python"] # used in website
 ---
 
-Since 2021, I've been lucky enough to be on the organising house for one of my school's biggest annual inter-house events: the **Crypt Hunt**. The concept of the event is simple: houses, consisting of hundreds of students*, work collectively to decipher answers to a series of cryptic puzzles. They get unlimited attempts to enter these answers on a website where the event is hosted.
+From 2021 to 2023, I was lucky enough to be on the organising team for one of my school's largest annual events: the **Crypt Hunt**.
 
-Since 2021, I've been in charge of the development and deployment of this platform four times.
+Inspired by collegiate [mystery](http://puzzles.mit.edu/) [hunts](https://puzzlehunt.club.cc.cmu.edu/) and [puzzle days](https://cs50.harvard.edu/x/2023/puzzles/), the Crypt Hunt involves dozens–sometimes hundreds–of students of the school working over the course of multiple days, with the rest of their houses, to tackle a series of cryptic puzzles. The answer to each puzzle was typically a short string, which must be entered on the online platform for the event.
 
-The code for 2021 was the first semi-serious Django application I wrote. The 2023 code was the fourth time I wrote that same code from scratch, and followed several serious projects across languages which had forced me to accept much of conventional software development.
+All four times I was on the organising team (thrice for the intra-school edition, once for an inter-school version), I've led the development of its online home. The website for 2021 was the first semi-serious application with _real users_ and _real stakes_ that I had ever written; and by the 2023 iteration of the event, I'd rewritten the code for it from scratch four times.
 
-In a vacuum, the task of designing it is not a difficult one. But its unusual functionality means that it's so far removed from the land of CRUD apps, that the choices a developer makes while designing it say a lot about them.
+Developing such a site is not a remarkably difficult programming task. But with its functionality being far removed from the CRUD apps of tutorial land, it's definitely an unconventional one. There is one account shared by hundreds of individual players of a house, and any one of them entering the correct answer should cause the entire house to level up. We also needed detailed to maintain detail logs to ensure the integrity of the events.
 
-Here, I'll go over two remarkably different methods of designing a solution for the exact same task–reading an answer from a user, and levelling up their house if they're correct. For seasoned developers: you'll see why pundits keep harping on the importance of seemingly obvious principles that constitute capital-G Good Django Code than others. For those just getting started with serious development–as I was in 2021–you'll see why I was wrong to think that label didn't matter.
+Programming this functionality has required me to tackle unfamiliar questions about application and database design, and resulted in code that says a lot about who I am as a developer. In this post, I want to compare two remarkably different responses of mine for designing the view function at the crux of this problem. I'll argue why I think the most recent approach is significantly superior, from the perspective of user experience, maintainability, and extensibility–and what it has to say about Django development as a whole.
 
-## The code from 2021
+### Preface
 
+The code for all years was written in Python with the Django framework. As in a conventional Django app, I defined model classes which directly mapped onto PostgreSQL tables in `models.py` files, and wrote view functions in `views.py` files which were triggered by requests to application endpoints. For the purposes of this post, I've modified and shortened the code to keep the focus on the core application logic.
+
+### The code from 2021
+
+This was the first time I'd ever coded _anything_ in Django. Here, I took what seemed like the obvious approach: at the point where forms are submitted and validated, answers should be validated and houses should be levelled up. This resulted in the creation of a few small model classes and bulky view functions in which the business logic of the app lived.
 
 ```python
 # models.py
@@ -31,11 +37,9 @@ class House(models.Model):
     level = models.IntegerField(default=1)
     levelup_time = models.DateTimeField(auto_now = True)
 
-# Create your models here.
 class Question(models.Model):
-    contents = RichTextUploadingField(default=None, blank=True, null=True)
+    ...
     answer = models.CharField(max_length=150)
-    serial_num = models.SmallIntegerField(unique=True)
 
 class Submission(models.Model):
     contents = models.CharField(max_length=150)
@@ -43,34 +47,52 @@ class Submission(models.Model):
 
 ```
 
-
 ```python
 # app/views.py
 
 def play(request):
-    # 1
-    initial_house = CryptHouse.objects.get(account=request.user)
-    initial_house_level = initial_house.level
+    # Only contains the code for POST endpoint
 
-    initial_question = models.Level.objects.get(serial_no=initial_house_level)
+    # 1. Read data from the authentication status
+    house = CryptHouse.objects.get(...)
+    house_question = models.Level.objects.get(serial_no=house.level)
 
-    data = request.POST form.cleaned_data["contents"]
-        user_id = request.session["user_id"]
-        sub = Submission(...)
-        sub.save()
+    # 2. Read data from the form
+    user_answer = ...
+    user_id = ...
 
-        # 3
-        current_house = CryptHouse.objects.get(account=request.user) 
-        current_house_level = current_house.level
-            
-        if current_house_level == initial_house_level:
-            is_correct = validate_submission(sub, initial_level)
-            if is_correct:
-                current_house = CryptHouse.objects.get(account=request.user)
-                current_house.level += 1
-                current_house.save()
+    # 3. Look up corresponding database objects and save them
+    sub = Submission(content=user_answer, submitted_by=user_id)
+    sub.save()
+
+    # 4. Validate the submission and manipulate the database
+    is_correct = utils.validate_submission(sub, initial_level)
+    if is_correct:
+        house.level += 1
+        house.save()
+
+    # 5. Render template response
     ...
 ```
+
+This view carries out the following steps for any submission:
+
+1. Receiving the request
+2. Reading data from the request
+3. Checking if the submission is correct
+4. Writing information about the submission, including its correctness, to the corresponding database table
+5. If the submission is correct: levelling up the house (an external object not directly involved in the request)
+6. Returning a response
+
+This design _worked_. No glitches associated with answer validation or levelling up were reported by participants. But this did not make up for its flaws.
+
+The first major issue is that were the application to be extended to allow alternative pathways for submitting answers, for example, implementing a RESTful API for a client-side application or hardware endpoint (as was the case the next year!), all the validation must be duplicated in another view. This would be an obvious violation of DRY principles of software development: unnecessary repetition of business logic exponentially increases the possibility of inconsistent behaviour, and increases the difficulty of maintenance over time.
+
+We saw this during testing with the admin database: adding correct answers directly to the database had no impact on the house. Only when data was entered in the database through one particular method was there a change in application state. It was possible for the same database state to result in two possible application states.
+
+The second problem is that the application has no sense of the state of the house in comparison to that of the player submitting the form. Were a user to not refresh the question page for long enough that the rest of the house had progressed to a higher level, but somehow managed to enter the correct answer for the new question, the house would level up. This is unlikely, however, I will argue that this is indicative of underlying issues with this approach. The fact that it is possible for a player to inadvertently level up their house, even if they themselves have not seen the new question, means that there is significant room for improvement.
+
+### The new and improved approach in 2023
 
 ```python
 # users/models.py
@@ -78,27 +100,18 @@ class House(models.Model):
     account = models.ForeignKey(User, on_delete=models.CASCADE)
     current_question = models.ForeignKey("api.Question", on_delete=models.SET_NULL, null=True, blank=True)
     levelup_time = models.DateTimeField(null=True, blank=True, default=None)
-    is_banned = models.BooleanField(default=False)
 
     def advance_question(self):
         try:
             self.current_question = self.current_question.next_question
         except AttributeError:
             self.current_question = None
-        now = datetime.now()
-        aware_datetime = make_aware(now)
-        self.levelup_time = aware_datetime
+        self.levelup_time = make_aware(datetime.now()) # 
         self.save()
-
 
 class Player(models.Model):
     school_user_id = models.CharField(max_length=100, unique=True)
     house = models.ForeignKey(House, on_delete=models.CASCADE)
-```
-
-```python
-# api/models.py
-
 
 class Question(models.Model):
     contents = RichTextUploadingField(default=None, blank=True, null=True)
@@ -126,7 +139,6 @@ class Submission(models.Model):
 
     def validate(self):
         if self.by_house.current_question != self.for_question: self.status = "ODT"
-
         elif self.text_contents == self.for_question.answer:
             self.status = "COR"
             self.by_house.advance_question()
@@ -142,26 +154,42 @@ class Submission(models.Model):
 ```python
 # api/views.py
 def play(request):
+    # Read data from the authentication status
     account = request.user
     matching_house = get_object_or_404(House, account=account)
 
-    data = request.POST
-    school_user_id = data.get("school_user_id", None)
-    text_contents = data.get("contents", None)
-    question_num = data.get("question_num", None)
+    # Read data from the form
+    school_user_id = ...
+    text_contents = ...
+    question_num = ...
 
+    # Look up corresponding database objects and save them
     matching_player = Player.objects.get_or_create(house=matching_house, school_user_id=school_user_id)[0]
     for_question = get_object_or_404(Question, serial_num=question_num)
     new_submission = Submission(text_contents=text_contents, by_player=matching_player, for_question=for_question)
+    new_submission.save()
+
+    # Render template response
     ...
 ```
 
+The interesting thing about this view is what it _doesn't_ have. Here, it only concerns itself with:
 
-This view does three things better:
-1. It only cares about things that it should care . How 
+1. Receiving a request
+2. Reading data from the request
+3. Directly writing that information to the correct database table
+4. Returning a response
 
+What were steps 3 and 5 from the previous approach are now missing. No longer does the view function need to know if the submission was correct, and all the application logic associated with a submission is automatically triggered by the creation of a submission itself.
 
-* Documentation exists for a reason.
-* Don
-* At the heart of all good systems is modularity.
-* [You don't know how your users will use your application](https://twitter.com/brenankeller/status/1068615953989087232). Your design shouldn't have to care about it either.
+Instead, between steps 3 and 4, a series of model operations are automatically triggered. When created, a submission automatically validates itself–no other external model or function ever intervenes to determine its correctness. In validating itself, it automatically _calls_ a function on the associated house object, which then mutates itself. Only after this is step 4 executed.
+
+The result, from the user's perspective, is the same as the 2021 version. But the code couldn't be more different.
+
+Every model now contains its own business logic. That _sounds_ nice, and it definitely makes for more elegant code. But there are more important benefits. It is no longer possible to create a correct submission without levelling up the application.
+
+The result of creating a correct submission in the database is now _deterministic_. The same operation (adding a correct answer) results in the same eventual database and application state, no matter how that operation was carried out. And if we were to extend the app, as described previously, we'd skip all the hassles associated with rewriting the same business logic again.
+
+### So what?
+
+These two counterexamples demonstrate the truth of the–albeit clichéd–Django adage of keeping views 'fat' and models 'thin'. It didn't take long for us to realise the benefits of minimising the role of view functions and keeping business logic as close to models as possible. When we ran short of time, the 2023 backend design allowed us to switch from a client-side JavaScript app to a conventional server-side approach without having to make any significant changes to the application logic. The only new code that had to be written was the unavoidable result of switching from POST requests that read from form submissions instead of API calls.

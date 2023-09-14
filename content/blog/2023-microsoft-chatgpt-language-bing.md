@@ -1,5 +1,5 @@
 ---
-title: "Bing's planned ChatGPT integration will shape the future of generative A.I."
+title: "Bing's planned ChatGPT integration will shape the future of generative AI"
 date: 2023-01-04T23:47:13+05:30
 draft: false
 showTableOfContents: true

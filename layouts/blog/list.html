@@ -20,9 +20,11 @@
 
         <div class="py-5 border-t border-b border-dashed border-1 border-neutral-400">
             <h2 class="mb-1 text-base font-bold text-neutral-800 dark:text-neutral-200">Subscribe</h2>
-            <p class="mb-3 text-base prose">You can find my RSS feed <a href="/index.xml" class="text-">here</a>.</p>
-            
-            <p class="mb-3 text-base prose">You can also get the latest from my blog delivered directly to your inbox. No spam, promise!</p>
+            <p class="mb-3 text-base prose dark:prose-invert">You can find my RSS feed <a href="/index.xml"
+                    class="text-">here</a>.</p>
+
+            <p class="mb-3 text-base prose dark:prose-invert">You can also get the latest from my blog delivered
+                directly to your inbox. No spam, promise!</p>
             <div class="h-8 mb-2">
                 {{- partial "subscribe.html" . -}}
             </div>
@@ -49,10 +51,8 @@
                         {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
                     </div>
                 </header>
-                <section class="max-w-full mt-3 leading-relaxed prose dark:prose-invert">
-                    {{ .Content | emojify }}
-                </section>
-                <p class="mt-4 w-full font-bold text-center text-md text-neutral-400 tracking-[0.75em]">***</p>
+
+                
             </article>
             {{ end }}
             {{ end }}
