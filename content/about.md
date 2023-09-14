@@ -12,7 +12,7 @@ I'm a 12th-grade student in Delhi NCR, India. I've been programming in some way 
 
 ### On blogging
 
-Back in third grade, I was an overenthusiastic cricket fan who was only able to catch up on matches that finished after his bedtime by reading the next day's match reports. Over time, I wanted to try my own hand at producing cricket coverage, and so I started a fortnightly 'cricket magazine' which I 'sold' to my classmates (the currenc of exchange? Blank A-4 sheets.)
+Back in third grade, I was an overenthusiastic cricket fan who was only able to catch up on matches that finished after his bedtime by reading the next day's match reports. Over time, I wanted to try my own hand at producing cricket coverage, and so I started a fortnightly 'cricket magazine' which I 'sold' to my classmates (the currency of exchange? Blank A-4 sheets.)
 
 Later, when I was twelve, I was an avid reader of tech blogs and opinion pieces. By then, I'd come to genuinely enjoy writing as a way of channeling my interest in topics I was passionate about, and so started my own technology blog. In my earlier writing, you can see my attempts to mimic my influences–Dieter Bohn and his [_Processor_ newsletter](https://www.theverge.com/processor-newsletter-dieter-bohn-show-video), and John Gruber's [Daring Fireball](https://daringfireball.net/) blog.
 
