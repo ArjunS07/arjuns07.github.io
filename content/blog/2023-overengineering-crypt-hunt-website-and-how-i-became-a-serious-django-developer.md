@@ -13,11 +13,9 @@ From 2021 to 2023, I was lucky enough to be on the organising team for one of my
 
 Inspired by collegiate [mystery](http://puzzles.mit.edu/) [hunts](https://puzzlehunt.club.cc.cmu.edu/) and [puzzle days](https://cs50.harvard.edu/x/2023/puzzles/), the Crypt Hunt involves dozens–sometimes hundreds–of students of the school working over the course of multiple days, with the rest of their houses, to tackle a series of cryptic puzzles. The answer to each puzzle was typically a short string, which must be entered on the online platform for the event.
 
-All four times I was on the organising team (thrice for the intra-school edition, once for an inter-school version), I've led the development of its online home. The website for 2021 was the first semi-serious application with _real users_ and _real stakes_ that I had ever written; and by the 2023 iteration of the event, I'd rewritten the code for it from scratch four times.
+All four times I was on the organising team (thrice for the intra-school edition, once for an inter-school version), I've led the development of the online platform for the event. The website for 2021 was the first semi-serious application with _real users_ and _real stakes_ that I had ever written; and by the 2023 iteration of the event, I'd rewritten the website from scratch four times.
 
-Developing such a site is not a remarkably difficult programming task. But with its functionality being far removed from the CRUD apps of tutorial land, it's definitely an unconventional one. There is one account shared by hundreds of individual players of a house, and any one of them entering the correct answer should cause the entire house to level up. We also needed detailed to maintain detail logs to ensure the integrity of the events.
-
-Programming this functionality has required me to tackle unfamiliar questions about application and database design, and resulted in code that says a lot about who I am as a developer. In this post, I want to compare two remarkably different responses of mine for designing the view function at the crux of this problem. I'll argue why I think the most recent approach is significantly superior, from the perspective of user experience, maintainability, and extensibility–and what it has to say about Django development as a whole.
+Developing such a site is not a remarkably difficult programming task. But it is an unusual one. In this post, I want to compare two remarkably different responses of mine for designing the view function which is the heart of the event. I'll argue why I think the most recent approach is significantly superior, from the perspective of user experience, maintainability, and extensibility–and what it has to say about Django development as a whole.
 
 ### Preface
 
@@ -84,13 +82,11 @@ This view carries out the following steps for any submission:
 5. If the submission is correct: levelling up the house (an external object not directly involved in the request)
 6. Returning a response
 
-This design _worked_. No glitches associated with answer validation or levelling up were reported by participants. But this did not make up for its flaws.
+This design _worked_. No glitches associated with answer validation or levelling up were reported by participants. But it was far from perfect.
 
-The first major issue is that were the application to be extended to allow alternative pathways for submitting answers, for example, implementing a RESTful API for a client-side application or hardware endpoint (as was the case the next year!), all the validation must be duplicated in another view. This would be an obvious violation of DRY principles of software development: unnecessary repetition of business logic exponentially increases the possibility of inconsistent behaviour, and increases the difficulty of maintenance over time.
+The first major issue is that if the application had to be extended to allow alternative means to submit answers–for example, implementing a RESTful API for a client-side application or hardware endpoint–all the validation had be duplicated in another view. The first rule of software development is not to repeat yourself, but that's exactly what I was doing here: making it more difficult to maintain the codebase over time, and increasing the possibility of inconsistent behaviour.
 
-We saw this during testing with the admin database: adding correct answers directly to the database had no impact on the house. Only when data was entered in the database through one particular method was there a change in application state. It was possible for the same database state to result in two possible application states.
-
-The second problem is that the application has no sense of the state of the house in comparison to that of the player submitting the form. Were a user to not refresh the question page for long enough that the rest of the house had progressed to a higher level, but somehow managed to enter the correct answer for the new question, the house would level up. This is unlikely, however, I will argue that this is indicative of underlying issues with this approach. The fact that it is possible for a player to inadvertently level up their house, even if they themselves have not seen the new question, means that there is significant room for improvement.
+We saw this during testing with the admin database: adding correct answers directly to the database had no impact on the house. Only when data was entered in the database through the site was there a change in application state. It was possible for the same database state to correspond to two possible application states.
 
 ### The new and improved approach in 2023
 
@@ -173,18 +169,16 @@ def play(request):
     ...
 ```
 
-The interesting thing about this view is what it _doesn't_ have. Here, it only concerns itself with:
+Now, the view only concerns itself with:
 
 1. Receiving a request
 2. Reading data from the request
 3. Directly writing that information to the correct database table
 4. Returning a response
 
-What were steps 3 and 5 from the previous approach are now missing. No longer does the view function need to know if the submission was correct, and all the application logic associated with a submission is automatically triggered by the creation of a submission itself.
+Steps 3 and 5 from the previous approach are now missing. No longer does the view function need to know if the submission was correct. All the application logic associated with a submission is automatically triggered by the submission itself at the point of creation.
 
-Instead, between steps 3 and 4, a series of model operations are automatically triggered. When created, a submission automatically validates itself–no other external model or function ever intervenes to determine its correctness. In validating itself, it automatically _calls_ a function on the associated house object, which then mutates itself. Only after this is step 4 executed.
-
-The result, from the user's perspective, is the same as the 2021 version. But the code couldn't be more different.
+Instead, between steps 3 and 4, a series of operations in the database are automatically triggered. When created, a submission validates itself–no other external model or function ever intervenes to determine its correctness. In validating itself, it automatically calls a function on the associated house object, which then mutates itself. Only after this is step 4 executed.
 
 Every model now contains its own business logic. That _sounds_ nice, and it definitely makes for more elegant code. But there are more important benefits. It is no longer possible to create a correct submission without levelling up the application.
 
@@ -192,4 +186,18 @@ The result of creating a correct submission in the database is now _deterministi
 
 ### So what?
 
-These two counterexamples demonstrate the truth of the–albeit clichéd–Django adage of keeping views 'fat' and models 'thin'. It didn't take long for us to realise the benefits of minimising the role of view functions and keeping business logic as close to models as possible. When we ran short of time, the 2023 backend design allowed us to switch from a client-side JavaScript app to a conventional server-side approach without having to make any significant changes to the application logic. The only new code that had to be written was the unavoidable result of switching from POST requests that read from form submissions instead of API calls.
+It didn't take long for us to realise the benefits of minimising the role of view functions and keeping business logic as close to models as possible. When we ran short of time, the 2023 backend design allowed us to switch from a client-side JavaScript app to a conventional server-side approach without having to make any significant changes to the application logic. The only new code that had to be written was the unavoidable result of switching from POST requests that read from form submissions instead of API calls.
+
+### Why does this matter?
+
+In general, there's a tendency in programming to embellish ideas for new programmers without justifying why. In the Django world, this is keeping views fat and models thin'. I didn't understand why until I saw for myself both sides of conformity to this idea.
+
+I opened this piece by talking about how the site for the crypt hunt may sem trivial to some. That's true, but it's often the simplest projects which ask the most interesting questions of developers by offering the greatest contrast in possible approaches. I've often been asked why I didn't just reuse code each year, but it's because I became a better engineering because of it.
+
+To conclude, here are three takeaways from this experience which may be useful pieces of advice for newer programmers:
+
+1. Actively engage in the community surrounding the technologies you use. Nothing beats documentation, books, and blog posts for actively learning a technology; but supplementing those with discussions on GitHub, Reddit, YouTube, and Hacker News ensure that you're actively engaged with critical thinking about the tool.
+
+2. Trust in programming adages–the more clichéd, the better. But make sure to practically understand the downsides of not adhering to these rules as well as you practice the upsides of following them.
+
+3. But at the end of the day, prioritise functionality over elegance. It's much better to ship something that works than it is to cost your clients and users by spending excessive time attempting to adherre to 'best practices'.

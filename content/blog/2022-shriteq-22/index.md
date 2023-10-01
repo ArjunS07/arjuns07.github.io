@@ -1,6 +1,6 @@
 ---
-title: "Shriteq 2022"
-date: 2023-09-06T17:13:42+05:30
+title: "Organising ShriTeq 2022"
+date: 2022-10-20T17:13:42+05:30
 draft: true
 description: "" # used in HTML metadata
 summary: "" # used in website
