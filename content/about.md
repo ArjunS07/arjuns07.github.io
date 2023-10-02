@@ -7,8 +7,7 @@ layout: "simple"
 # showReadingTime: false
 ---
 
-I'm a 12th-grade student in Delhi NCR, India. I've been programming in some way or the other since I was eleven years old, and today, am the head of my school's computer society, Megabyte.
-
+I'm a 12th-grade student in Delhi NCR, India. I've been programming in some way or the other since I was eleven years old, and today, am the head of my school's computer society.
 
 ### On blogging
 

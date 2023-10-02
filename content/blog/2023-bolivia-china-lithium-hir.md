@@ -5,9 +5,10 @@ draft: false
 description: "" # used in HTML metadata
 summary: "" # used in website
 keywords: [] # used in HTML metadata
-tags: [] # used in website
+tags: ["Economics", "Deep Dives"] # used in website
 ---
 
+_This article was written for the 2023 Harvard International Review Academic Writing Contest, winning an award for 'Outstanding Writing Content'._
 
 The white salt flats of Uyuni, Bolivia have long been an otherworldly [tourist getaway](https://www.nationalgeographic.com/travel/article/how-to-see-salar-de-uyuni-salt-flats-bolivia). It is unlikely they will remain so unblemished a decade from now.
 
@@ -28,5 +29,3 @@ Closer to extraction, such benefits will also be welcome. Far from the potential
 Perhaps this is to be expected. In the cultural memory of Bolivians lives a [strong skepticism](https://www.sciencedirect.com/science/article/pii/S0016718518300228#s0015) of European and American foreigners, who, in the words of Bolivia's leaders, have engaged in ["unjust oil wars"](https://www.sciencedirect.com/science/article/pii/S0016718518300228#fn15) and inflicted a ["permanent plunder"](https://www.sciencedirect.com/science/article/pii/S0016718518300228#fn15) on the nation in the past centuries. Already, to guard themselves against undue foreign influence, the Bolivian and Mexican presidents have called for the establishment of what has been dubbed a ['Lithium OPEC'](https://www.reuters.com/world/americas/bolivia-president-calls-joint-latin-america-lithium-policy-2023-03-24/): an alliance between them and other lithium-rich Latin American countries, including Chile and Argentina. Considering the vast disparities in their stages of lithium extraction, contrasting economic policies for the mineral that remain in flux, and the fact that lithium, unlike oil, can be reused, the viability of such a plan remains to be seen. However, it indicates their collective keenness to ensure the benefits of this era of resource extraction are realized by them, too.
 
 The day of the announcement of their collaboration, Bolivia's Molina asserted it as proof of the existence of "sovereign alternatives" to completely privatized approaches for lithium extraction. It remains to be seen to what extent this alternate model can reap benefits for Bolivia over broader time horizons, with the long-term sustainability of lithium itself as a material for batteries being [doubted](https://www.euronews.com/green/2022/02/09/we-re-facing-a-lithium-battery-crisis-what-are-the-alternatives) [by](https://www.imeche.org/news/news-article/the-big-battery-challenge-is-lithium-ion-dominance-set-to-last-3-experts-have-their-say) [some](https://oilprice.com/Energy/Energy-General/New-Ceramic-Battery-Could-Replace-Lithium-Ion-Batteries.html). As the global green transition progresses, new raw material commodities will likely emerge, opening new avenues for international trade. How competing interests are balanced in this decade in Bolivia may help define such markets in the many more decades to come.
-
-_This article was written for the 2023 Harvard International Review Academic Writing Contest, winning an award for 'Outstanding Writing Content'._

@@ -190,14 +190,14 @@ It didn't take long for us to realise the benefits of minimising the role of vie
 
 ### Why does this matter?
 
-In general, there's a tendency in programming to embellish ideas for new programmers without justifying why. In the Django world, this is keeping views fat and models thin'. I didn't understand why until I saw for myself both sides of conformity to this idea.
+In general, there's a tendency in programming to embellish ideas without justification until they seem to be no more than clever aphorisms. In the Django world, this is 'keeping views fat and models thin'. I didn't understand why this was true until I saw for myself both sides of conformity to it.
 
-I opened this piece by talking about how the site for the crypt hunt may sem trivial to some. That's true, but it's often the simplest projects which ask the most interesting questions of developers by offering the greatest contrast in possible approaches. I've often been asked why I didn't just reuse code each year, but it's because I became a better engineering because of it.
+I opened this piece by talking about how the site for the crypt hunt may sem trivial to some. That's true, but it's often the simplest projects which ask the most interesting questions of developers by offering the greatest contrast in possible approaches. I've often been asked why I didn't just avoid all this hassle and reuse the code from 2021 for all future years. It's because , I became a better engineering.
 
 To conclude, here are three takeaways from this experience which may be useful pieces of advice for newer programmers:
 
-1. Actively engage in the community surrounding the technologies you use. Nothing beats documentation, books, and blog posts for actively learning a technology; but supplementing those with discussions on GitHub, Reddit, YouTube, and Hacker News ensure that you're actively engaged with critical thinking about the tool.
+1. Participate in the community surrounding the technologies you use. Nothing beats documentation, books, and blog posts for actively learning a technology; but supplementing those with discussions on GitHub, Reddit, YouTube, and Hacker News ensure that you're passively engaged in thinking about new approaches to solve the same problems.
 
 2. Trust in programming adages–the more clichéd, the better. But make sure to practically understand the downsides of not adhering to these rules as well as you practice the upsides of following them.
 
-3. But at the end of the day, prioritise functionality over elegance. It's much better to ship something that works than it is to cost your clients and users by spending excessive time attempting to adherre to 'best practices'.
+3. At the end of the day, prioritise functionality over elegance. It's much better to ship something that works than it is to cost your clients and users by misguided worship of 'best practices'.
