@@ -8,7 +8,7 @@ keywords: [] # used in HTML metadata
 tags: ["Economics", "Deep Dives"] # used in website
 ---
 
-_This article was written for the 2023 Harvard International Review Academic Writing Contest, winning an award for 'Outstanding Writing Content'._
+_This article was submitted to the 2023 Harvard International Review Academic Writing Contest, winning an award for 'Outstanding Writing Content'._
 
 The white salt flats of Uyuni, Bolivia have long been an otherworldly [tourist getaway](https://www.nationalgeographic.com/travel/article/how-to-see-salar-de-uyuni-salt-flats-bolivia). It is unlikely they will remain so unblemished a decade from now.
 

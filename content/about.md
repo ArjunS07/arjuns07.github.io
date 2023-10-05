@@ -29,6 +29,6 @@ Since then, I've written dozens of [posts](/blog) about the computer industry, t
 * _**Project Hail Mary**_ by Andy Weir
 * _**The Day of the Jackal**_ by Frederick Forsyth
 * _**The Conquerer**_ series by Conn Iggulden
-* _**Creative Selection**: Inside Apple's Design Process During the Golden Age of Steve Jobs_ by Ken Kocienda
+
 
 _This site was proudly built with a custom version of the [Congo theme](https://github.com/jpanther/congo) for the [Hugo](gohugo.io) static-site generator._
