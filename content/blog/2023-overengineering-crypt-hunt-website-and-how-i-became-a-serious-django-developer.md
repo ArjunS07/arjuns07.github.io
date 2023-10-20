@@ -15,7 +15,7 @@ Inspired by collegiate [mystery](http://puzzles.mit.edu/) [hunts](https://puzzle
 
 All four times I was on the organising team (thrice for the intra-school edition, once for an inter-school version), I've led the development of the online platform for the event. The website for 2021 was the first semi-serious application with _real users_ and _real stakes_ that I had ever written; and by the 2023 iteration of the event, I'd rewritten the website from scratch four times.
 
-Developing such a site is not a remarkably difficult programming task. But it is an unusual one. In this post, I want to compare two remarkably different responses of mine for designing the view function which is the heart of the event. I'll argue why I think the most recent approach is significantly superior, from the perspective of user experience, maintainability, and extensibility–and what it has to say about Django development as a whole.
+Developing such a site is not a remarkably difficult programming task. But it is an unusual one. In this post, I want to compare two differing approaches I've tried to design the view function which is at the heart of the event. I'll argue why I think the most recent approach is significantly superior, from the perspective of user experience, maintainability, and extensibility–and what it has to say about Django development as a whole.
 
 ### Preface
 
