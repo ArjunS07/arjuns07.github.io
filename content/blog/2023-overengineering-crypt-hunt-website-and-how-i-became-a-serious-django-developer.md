@@ -15,7 +15,7 @@ Inspired by collegiate [mystery](http://puzzles.mit.edu/) [hunts](https://puzzle
 
 All four times I was on the organising team (thrice for the intra-school edition, once for an inter-school version), I've led the development of the online platform for the event. The website for 2021 was the first semi-serious application with _real users_ and _real stakes_ that I had ever written; and by the 2023 iteration of the event, I'd rewritten the website from scratch four times.
 
-Developing such a site is not a remarkably difficult programming task. But it is an unusual one. In this post, I want to compare two differing approaches I've tried to design the view function which is at the heart of the event. I'll argue why I think the most recent approach is significantly superior, from the perspective of user experience, maintainability, and extensibility–and what it has to say about Django development as a whole.
+Developing such a site is not a remarkably difficult programming task. But it is an unusual one. In this post, I want to compare two differing approaches I've used to design the view function which lies at the heart of the event. I'll argue why I think the most recent approach is significantly superior, from the perspective of user experience, maintainability, and extensibility–and what this has to say about Django development as a whole.
 
 ### Preface
 
@@ -192,7 +192,7 @@ It didn't take long for us to realise the benefits of minimising the role of vie
 
 In general, there's a tendency in programming to embellish ideas without justification until they seem to be no more than clever aphorisms. In the Django world, this is 'keeping views fat and models thin'. I didn't understand why this was true until I saw for myself both sides of conformity to it.
 
-I opened this piece by talking about how the site for the crypt hunt may sem trivial to some. That's true, but it's often the simplest projects which ask the most interesting questions of developers by offering the greatest contrast in possible approaches. I've often been asked why I didn't just avoid all this hassle and reuse the code from 2021 for all future years. It's because , I became a better engineering.
+I opened this piece by talking about how the site for the crypt hunt may sem trivial to some. That's true, but it's often the simplest projects which ask the most interesting questions of developers by offering the greatest contrast in possible approaches.
 
 To conclude, here are three takeaways from this experience which may be useful pieces of advice for newer programmers:
 
