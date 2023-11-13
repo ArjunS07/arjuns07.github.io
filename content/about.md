@@ -7,20 +7,19 @@ layout: "simple"
 # showReadingTime: false
 ---
 
-I'm a 12th-grade student in Delhi NCR, India. I've been programming in some way or the other since I was eleven years old, and today, am the head of my school's computer society.
+I'm a 12th-grade student in Delhi NCR, India. I've been programming in some way or the other since I was eleven years old and began [my best attempt](/blog) at a [Dieter Bohn](https://www.theverge.com/authors/dieter-bohn) impression a year after that. Over the years, I've gravitated towards musing on the code I write, speculating on the implications of technological developments across industries, as well as reviewing software and media in the world of computers.
 
-### My favourite apps and software
+Currently, I'm the head of my [school computer club](https://tsrsmegabyte.com), a machine learning enthusiast, a casual astronomy fan, and an Oxford comma devotee. My [GitHub](https://github.com/ArjunS07) is the best place to check out what I'm working on. The subject I'm most interested in learning about right now is [positive unlabelled machine learning](https://www.cs.uic.edu/~liub/NSF/PSC-IIS-0307239.html).
 
-* Browser: [Arc](https://arc.net/)
-* Launcher: [Raycast](https://www.raycast.com/)
-* Window manager: [Rectangle](https://rectangleapp.com/)
-* Podcasts: [Overcast](https://overcast.fm/)
+Occasionally, my terminal window has been found closed. I've spent these times discovering that my favourite book is Kurt Vonnegut's _Slaughterhouse-Five_, having also enjoyed Andy Weir's _Project Hail Mary_, Conn Iggulden's _Conquerer_ series, Ken Kocienda's _Creative Selection_, and Katie Mack's _The End of Everything_, amongst others.
 
-### My favourite books
+43 of the 50 songs I've spent the most time listening to [on Spotify](https://open.spotify.com/user/312t5wi46n3yze3f6kuyjza4mspu?si=f765f49e744641fa) are by the [The Mountain Goats](https://www.mountain-goats.com). The piece of software which brings the most joy to my life every day is [Downlink](http://downlinkapp.com). [News Minimalist](https://www.newsminimalist.com) is the coolest tool I've used recently–and not just because it reminds me that artificial intelligence is about more than copyright law and tech doomerism.
 
-* _**Project Hail Mary**_ by Andy Weir
-* _**The Day of the Jackal**_ by Frederick Forsyth
-* _**The Conquerer**_ series by Conn Iggulden
-* _**Slaughterhouse-Five**_ by Kurt Vonnegut
+This site was built with a custom fork of the [Congo theme](https://github.com/jpanther/congo) for the [Hugo](gohugo.io) static site generator. I would show you the code, but I know better than to allow my hardcoded markup to ostracise me from the Hugo community. Several best practices were harmed in the making of this site.
 
-_This site was proudly built with a custom version of the [Congo theme](https://github.com/jpanther/congo) for the [Hugo](gohugo.io) static-site generator._
+{{< raw-html >}}
+<blockquote>
+  <p>I'm not a real doctor <br> but I am a real worm</p>
+  <footer>–I occasionally experience unjustified bursts of self-esteem and quote <span style="font-style:normal">They Might be Giants</span> lyrics.</cite></footer>
+</blockquote>
+{{< /raw-html >}}
