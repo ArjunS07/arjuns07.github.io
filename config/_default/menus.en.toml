@@ -26,9 +26,9 @@
   pageRef = "about"
   weight = 30
 
-# [[main]]
-#   name = "Resume"
-#   url='/arjunsharma_resume.pdf'
+[[main]]
+  name = "Resume"
+  url='/resume.pdf'
 
 
 # -- Footer Menu --

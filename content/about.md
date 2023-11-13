@@ -21,6 +21,6 @@ I'm a 12th-grade student in Delhi NCR, India. I've been programming in some way 
 * _**Project Hail Mary**_ by Andy Weir
 * _**The Day of the Jackal**_ by Frederick Forsyth
 * _**The Conquerer**_ series by Conn Iggulden
-* _**Slaughterhouse Five**_ by Kurt Vonnegut
+* _**Slaughterhouse-Five**_ by Kurt Vonnegut
 
 _This site was proudly built with a custom version of the [Congo theme](https://github.com/jpanther/congo) for the [Hugo](gohugo.io) static-site generator._
