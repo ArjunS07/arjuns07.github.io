@@ -15,7 +15,7 @@ In my post of Secretary of ICT at my school, I was one of the three lead organis
 
 **Bot Xchange** was a machine learning-based virtual stock trading competition which I ideated in August 2022 and  co-developed the next month.
 
- Most ML competitions tend to be straightforward races to maximise the accuracy of your neural network, and as far as I know, an ML-based virtual event like this was unprecedented at the high school level in India when we organised it.
+ Most ML competitions tend to be straightforward races to maximise the accuracy of your neural network, and as far as I know, an ML-based algorithmic trading event like this was unprecedented at the high school level in India when we organised it.
 
 ## TL;DR
 
@@ -31,7 +31,7 @@ The best way to familiarise yourself with Bot Xchange is to check out the [start
 
 ### How the event worked
 
-After a lot of deliberation, we eventually settled on a static Python-based structure:
+After considerable deliberation, we eventually settled on a static Python-based structure:
 
 * We would provide teams with historic stock data, and nudges on how to train machine learning models to predict future stock prices based on past price data
 * Teams would make custom ML models, as well as write programs to make stock trading decisions based on the models that they developed
@@ -49,6 +49,8 @@ We needed to do a few things to make this event happen:
 
 4. Defined a structure for participants' programs to make trades, and write a 'coderunner' to execute trades for those programs. It would take a Pandas DataFrame consisting of stock market data we scraped in step 1, and pass it to the team's `make_trades()` function, revealing one new day of price data every time. It would do this 50 times. It had code to keep track of the team's profit, and had extensive logging for each of the 50 'days' in which trades were made.
 
-5. Write a sample program to test the viability of the event. We used a simple algorithm to make trades after getting price predictions from our LSTM model, and made around ~30% profit. This program was rather complicated to develop, and involved a lot of work by the [other student](https://github.com/Advay168) and I.
+5. Write a sample program to test the feasibility of the event. We used a simple algorithm to make trades after getting price predictions from our LSTM model, and made around ~30% profit. The code for this was rather complex, and involved a lot of work by the [other student](https://github.com/Advay168) and I.
 
 6. Extensively document the requirements for the event. We put together a sample machine learning model with an even simpler trading algorithm, and gave it to teams in the starter pack document.
+
+I contributed extensively to all of these aspects, particularly 1, 2, 3, and 6.

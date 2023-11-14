@@ -17,7 +17,7 @@ You can check out GreenQode at [greenqode.org](https://www.greenqode.org).
 
 **[GreenQode](https://www.greenqode.org)** is a web application I created in March 2022, and have been actively developing since, that helps communities keep track of their greenery, and engage people with it.
 
-That sure sounds great, but what does it mean?
+### What does that mean?
 
 GreenQode allows you to add information about your plants and trees, including descriptions, images, and more, to a CRUD interface. From there, it provides two primary functionalities:
 
@@ -37,11 +37,11 @@ Both features draw from the same inventory of plants and trees - you're just abl
 
 The site has tons of features that facilitate easy sharing of information, such as public pages for the entire community, as well as for each individual plantation, which show the latest information entered by the community administrator over time.
 
-## What problem does this solve?
+### What problem does this solve?
 
 This definitely doesn't solve the biggest problems relating to sustainability, but that doesn't mean that having engaged communities that are aware of local biodiversity isn't important. Some places have already tried using static printed leaflets or signboards, but QR codes are far more convenient to read as well as update over time. Some have tried using QR codes, but it's difficult to set up for the average administrator, and there's no platform to generate QR codes en masse that's specialised to environmental contexts.
 
-## Who's using this?
+### Who's using this?
 
 I'm working with [iamgurgaon](https://iamgurgaon.org/). It's also being used by other residential complexes in Delhi NCR to keep track of their environmental inventory.
 
