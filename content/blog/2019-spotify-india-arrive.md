@@ -4,6 +4,8 @@ date: 2019-02-27T20:32:06+05:30
 draft: false
 showFullContent: false
 summary: "Spotify's arrival in India might signal the beginning of a new era in the country's music industry."
+tags: ["Industry"]
+
 ---
 
 The last two days have surely been ones of bold action on the Indian subcontinent, one of which you've most probably heard about and the other one of which you've most probably not heard about. In the midst of conflict on the Indo-Pak border, Spotify has taken the decision of decision of launching in India, one that has been long anticipated by many since the Swedish music-streaming giant first started making waves in the digital music market in 2011. What makes this so bold is that Spotify is in an ongoing legal dispute with Warner Media Group over an Indian copyright law, with the latter preventing Spotify from gaining access to the group's music catalog (I refrain from going into the details as this legal battle is over a 2016 reinterpretation of a 2012 amendment to a 1957 Indian copyright law, but if you still want to know more, here's what Bloomberg says about it). This means that Spotify's launched in India without having in its library songs licensed under Warner Media Group.

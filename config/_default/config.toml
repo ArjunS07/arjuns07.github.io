@@ -12,6 +12,3 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-# # googleAnalytics = 'G-7M57457MP9'
-# googleAnalytics = "UA-PROPERTY_ID"

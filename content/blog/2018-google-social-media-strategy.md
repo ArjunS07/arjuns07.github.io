@@ -4,6 +4,7 @@ date: 2018-12-11T20:33:21+05:30
 draft: false
 showFullContent: false
 summary: "Google's known for the confusing deluge of social apps that they keep coming up with, but they might finally be getting their act together."
+tags: ["Industry"]
 ---
 
 Google is known for offering users as much choice as possible in almost all the markets they compete in - YouTube Music was until recently a direct competitor of Google Play Music, Chromecast and Android TV don't seem to be intended to be used with each other, Google Cardboard cannibalises Daydream View sales, and YouTube Movies serves almost the same purpose as Google Play movies. Not to forget this year's Pixel Slate competing in a manner with last year's Pixelbook, given that they run the same operating system and have similar hardware beyond the $1000 price point.

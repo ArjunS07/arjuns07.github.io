@@ -4,6 +4,8 @@ date: 2019-06-02T20:27:59+05:30
 draft: false
 showFullContent: false
 summary: "WWDC 2019 might be the year where Apple redeems themselves and pivots to a new direction in their software."
+tags: ["Industry"]
+
 ---
 
 Apple's annual World Wide Developers Conference is set to take place on the third day of June, and, given that the various leaks and rumours encapsulating it are true, this event is expected to hold immense significance for the company’s position and perception globally, and should give us answers to many of the questions users have presented to the multi-billion dollar corporation over the past few years.
