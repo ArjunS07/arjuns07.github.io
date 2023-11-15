@@ -45,7 +45,7 @@ Get TabCoy [here](https://chrome.google.com/webstore/detail/tabcopy/micdllihgopp
 
 {{< figure src="/blog/2022-7-apps-student-needs/videospeed.jpeg" caption="Image via [Video Speed Controller](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk)" >}}
 
-My personal favourite on this list, this Chrome extension has no doubt saved countless hours when blitzing through revision videos, or has helped rationalise the guilt of bingewatching a TV show the day before an exam – by enabling you to pump up the speed on any HTML5 video – including YouTube, Netflix, Prime Video, Disney+, and Twitter – to up to 16x the original speed.
+My personal favourite on this list, this Chrome extension has no doubt saved countless hours when blitzing through revision videos, or has helped rationalise the guilt of bingewatching a TV show the day before an exam–by enabling you to pump up the speed on any HTML5 video–including YouTube, Netflix, Prime Video, Disney+, and Twitter–to up to 16x the original speed.
 
 It's hard going back to watching anything at that snail-paced speed _normal_ people once you've had a few days with this extension - and it's even better for speeding through videos on sites which don't natively support speed controls.
 
@@ -55,7 +55,7 @@ Get Video Speed Controller [here](https://chrome.google.com/webstore/detail/vide
 
 {{< figure src="/blog/2022-7-apps-student-needs/noisli.jpeg" caption="Image via [Noisli](https://www.noisli.com/)" >}}
 
-Staying focused through that hard work, though, is always difficult. Nosili is a website that provides up to 1.5 hours per day of free, highly customisable background audio to focus to, drowning out external distractions and noise – letting you focus on the task at hand.
+Staying focused through that hard work, though, is always difficult. Nosili is a website that provides up to 1.5 hours per day of free, highly customisable background audio to focus to, drowning out external distractions and noise–letting you focus on the task at hand.
 
 Get Noisli [here](https://www.noisli.com/).
 

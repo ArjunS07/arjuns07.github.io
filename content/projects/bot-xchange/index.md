@@ -4,7 +4,7 @@ description: "An original ML-based algorithmic stock trading event I co-develope
 draft: false
 thumbnail: "images/random-forest-model.png"
 layout: "simple"
-timeline: "September – October 2022"
+timeline: "September–October 2022"
 weight: 300
 url: "bx-22"
 xml: false

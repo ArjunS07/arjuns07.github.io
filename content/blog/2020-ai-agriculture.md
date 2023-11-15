@@ -11,7 +11,7 @@ _This was a multi-part series focusing on the applications of AI that I wrote fo
 
 ## Part One: Why agriculture faces challenges today, and what those are
 
-Being one of the significant challenges facing humanity in the present day as we look towards the future, food supply and agriculture are ripe to be transformed by continuous innovations and progress in artificial intelligence. If we're to produce 70% more food than we do today – which we'll need to sustain the increasing demands of a growing population – AI will have a role in helping us get there.
+Being one of the significant challenges facing humanity in the present day as we look towards the future, food supply and agriculture are ripe to be transformed by continuous innovations and progress in artificial intelligence. If we're to produce 70% more food than we do today–which we'll need to sustain the increasing demands of a growing population–AI will have a role in helping us get there.
 
 
 In this first instalment of a three-part series, we’ll take a deep dive into the problems faced by the agriculture industry today — and a sneak peek at some of the groundbreaking solutions to these modern-day challenges.

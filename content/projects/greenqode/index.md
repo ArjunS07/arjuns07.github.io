@@ -4,7 +4,7 @@ description: "A web app to manage and promote biodiversity in your community"
 draft: false
 thumbnail: "images/iamgurgaon-public-page-jan-23.png"
 layout: "simple"
-timeline: "March 2022 – Present"
+timeline: "March 2022–Present"
 weight: 200
 url: "gq"
 xml: false

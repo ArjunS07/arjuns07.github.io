@@ -5,7 +5,7 @@ draft: false
 thumbnail: "images/edudaan_logo.png"
 layout: "simple"
 weight: 100
-timeline: "June – August 2022"
+timeline: "June–August 2022"
 url: "sih" # define a short URL for easy sharing
 xml: false
 ---

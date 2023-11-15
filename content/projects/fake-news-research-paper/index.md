@@ -2,7 +2,7 @@
 title: "Identifying Characteristic Features of Fake News Articles for Deep Learning-Based Identification"
 description: "A machine learning research paper I worked on in 2021"
 draft: false
-timeline: "June – November 2021"
+timeline: "June–November 2021"
 layout: "simple"
 thumbnail: "images/roc_fig_2.png"
 weight: 700

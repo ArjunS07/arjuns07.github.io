@@ -21,27 +21,27 @@ Microsoft’s going to have to be careful. Other big tech firms appear wary of t
 
 ## The three main challenges facing large language models (LLMs) today
 
-1. **Veracity** – Even within mainstream circles, interest in ChatGPT’s genuinely impressive generative abilities is balanced by a general understanding to take what it says with a grain of salt.
+1. **Veracity**–Even within mainstream circles, interest in ChatGPT’s genuinely impressive generative abilities is balanced by a general understanding to take what it says with a grain of salt.
 
     If you prompt it with a question based on a false factual premise, it’ll still 'hallucinate' and [confidently spew](https://mashable.com/article/chatgpt-amazing-wrong) incorrect information.
 
-    Because of how the model works – it’s trained on a large corpus of texts and doesn’t directly refer to anything in its training set when prompted – [it also makes up false references](https://news.ycombinator.com/item?id=33841672) when asked to provide sources. In short, it is structurally incapable of distinguishing fact from fiction.
+    Because of how the model works–it’s trained on a large corpus of texts and doesn’t directly refer to anything in its training set when prompted–[it also makes up false references](https://news.ycombinator.com/item?id=33841672) when asked to provide sources. In short, it is structurally incapable of distinguishing fact from fiction.
 
     OpenAI CEO Sam Altman himself [cautioned](https://twitter.com/sama/status/1601731295792414720) that the model is ‘incredibly limited’ for anything ‘factual’.
 
-2. **Insensitivity** – OpenAI’s added enough guardrails to attempt to prevent the model from generating anything problematic to the point where they can impede legitimate uses of the technology.
+2. **Insensitivity**–OpenAI’s added enough guardrails to attempt to prevent the model from generating anything problematic to the point where they can impede legitimate uses of the technology.
 
     However, that doesn’t mean there aren’t ways to trick ChatGPT - with some not-so-difficult prompt engineering, people have [gotten](https://twitter.com/zswitten/status/1598380220943593472) [around](https://www.newstatesman.com/quickfire/2022/12/chatgpt-shows-ai-racism-problem) those filters.
 
     The above two problems are probably what the Google executives were worried about and what most of the public's attention seems to have been on so far. But I think there's another significant problem that people aren't talking enough about outside academic and programming circles.
 
-3. **Closed-sourcedness** – LLMs are increasingly inaccessible to anyone interested in tinkering or experimenting with them. Despite their name, OpenAI has been somewhat opaque on the exact working of their most significant breakthroughs - notably, Microsoft has an [exclusive licence](https://blogs.microsoft.com/blog/2020/09/22/microsoft-teams-up-with-openai-to-exclusively-license-gpt-3-language-model/) to the code behind GPT-3. OpenAI’s also heavily reliant on Microsoft Azure for the infrastructure powering its services and for training the model, which is estimated to cost $3 million / day.
+3. **Closed-sourcedness**–LLMs are increasingly inaccessible to anyone interested in tinkering or experimenting with them. Despite their name, OpenAI has been somewhat opaque on the exact working of their most significant breakthroughs - notably, Microsoft has an [exclusive licence](https://blogs.microsoft.com/blog/2020/09/22/microsoft-teams-up-with-openai-to-exclusively-license-gpt-3-language-model/) to the code behind GPT-3. OpenAI’s also heavily reliant on Microsoft Azure for the infrastructure powering its services and for training the model, which is estimated to cost $3 million / day.
 
     Even still, the computational resources required to _run_ a service like ChatGPT are completely dwarfed by those required to _train_ the underlying LLMs.
 
     Even if the code for these tremendously powerful models was made publicly available - which it rarely is, the last such release was OpenAI's GPT-2 which is multiple orders of magnitude less powerful than the GPT-3.5 powering ChatGPT - its use to developers for fine-tuning and testing, and the extent to which an open-source ecosystem can be built around it, is restricted by the computational resources required to train these models.
 
-    Previous developments in computer science eventually trickled down. But I'm not sure how long it will take for the resources required to train something like that DALL-E 2 – 4 weeks on 256 Nvidia V100 GPUs – to become accessible to the average research lab.
+    Previous developments in computer science eventually trickled down. But I'm not sure how long it will take for the resources required to train something like that DALL-E 2–4 weeks on 256 Nvidia V100 GPUs–to become accessible to the average research lab.
 
 ## What does this mean for Microsoft?
 
@@ -49,7 +49,7 @@ Microsoft will have to conquer these challenges completely, or they'll otherwise
 
 If they play it safe, they might be able to build something that rivals [Google’s Knowledge Graph](https://support.google.com/knowledgepanel/answer/9787176?hl=en).
 
-That’d perhaps be useful and have a positive impact on the Bing user experience – but considering it’s something Google’s had since long before LLMs were mainstream technology, it's probably not something which Microsoft executives would see as a justification for their massive investment in OpenAI. Besides, it's not exactly the best application of ChatGPT. ChatGPT is tuned for guided conversation, not general NLP tasks like its underlying GPT-3 model.
+That’d perhaps be useful and have a positive impact on the Bing user experience–but considering it’s something Google’s had since long before LLMs were mainstream technology, it's probably not something which Microsoft executives would see as a justification for their massive investment in OpenAI. Besides, it's not exactly the best application of ChatGPT. ChatGPT is tuned for guided conversation, not general NLP tasks like its underlying GPT-3 model.
 
 ## Where Microsoft could go
 
