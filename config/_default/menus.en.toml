@@ -28,7 +28,7 @@
 
 [[main]]
   name = "CV"
-  url='/resume.pdf'
+  url='/resume'
 
 
 # -- Footer Menu --
