@@ -42,7 +42,7 @@
             {{ range .Pages }}
             <article class="max-w-full mb-8">
                 <header>
-                    <a class="mt-0 mb-1 text-2xl font-semibold text-neutral-900 dark:text-neutral"
+                    <a class="mt-0 mb-1 text-2xl font-semibold text-neutral-900 dark:text-neutral hover:underline hover:underline-offset-2 decoration-primary-500"
                         href="{{ .RelPermalink }}">
                         {{ .Title | emojify }}
                     </a>
@@ -51,7 +51,6 @@
                         {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
                     </div>
                 </header>
-
                 
             </article>
             {{ end }}

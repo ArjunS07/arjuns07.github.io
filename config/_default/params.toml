@@ -43,7 +43,7 @@ mainSections = ["blog"]
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = true
-  showWordCount = true
+  showWordCount = false
   showComments = false
   # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 

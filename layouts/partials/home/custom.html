@@ -1,34 +1,28 @@
-<div class="flex flex-col items-center justify-center gap-6 mt-6 mb-12 md:flex-row md:gap-12">
-    <div class="flex flex-col items-center gap-2">
-        {{ with .Site.Author.image }}
-        {{ $authorImage := resources.Get . }}
-        {{ if $authorImage }}
-        {{ $authorImage := $authorImage.Fill "288x288" }}
-        <img class="rounded-full max-h-40 " alt="{{ $.Site.Author.name | default " Author" }}"
-            src="{{ $authorImage.RelPermalink }}" />
-        {{ end }}
-        {{ end }}
+<div class="flex flex-col items-center justify-center mb-8 text-center">
+    <h2 class="mb-3 text-3xl font-bold">Hi, I'm Arjun Sharma.</h2>
+    <div class="max-w-screen-md">
+        <p class="mb-3 text-xl font-bold prose dark:prose-invert">
+            I'm an 18-year-old student living in Gurgaon, India.
+        </p>
+        <p class="text-xl font-medium prose dark:prose-invert">
+            If you're interested in reading my <a
+            href="/blog">blog</a>, checking out some things I've <a href="/projects">worked on</a>, or getting to <a
+            href="/about">know me</a>, you've come to the right place.
+        </p>
     </div>
-    
-    <div class="flex flex-col items-center md:items-start">
-        <div class="mb-3 text-center md:flex-grow md:text-left">
-            <h1 class="mb-2 text-4xl font-bold">Hi, I'm Arjun Sharma 👋</h1>
-            <p class="text-xl font-medium leading-relaxed prose dark:prose-invert">I'm an 18-year-old student living in Delhi NCR, India. If you're interested in reading my <a href="/blog">blog</a>, checking out things I've <a href="/projects">worked on</a>, or learning <a href="/resume.pdf">more</a> <a href="/about">about me</a>, you've come to the right place.</p>
-        </div>
-        <div class="">
-            {{ with .Site.Author.links }}
-            <div class="flex flex-wrap gap-2 text-neutral-400 dark:text-neutral-500">
-                {{ range $links := . }}
-                {{ range $name, $url := $links }}
-                <a class="transition-transform scale-125 hover:scale-150 hover:text-primary-700 dark:hover:text-primary-400"
-                    style="will-change:transform;" href="{{ $url }}" target="_blank"
-                    aria-label="{{ $name | title }}" rel="me noopener noreferrer">{{ partial "icon.html" $name
-                    }}</a>
-                {{ end }}
-                {{ end }}
-            </div>
+    <div class="mt-2">
+        {{ with .Site.Author.links }}
+        <div class="flex flex-wrap gap-2 text-neutral-400 dark:text-neutral-500">
+            {{ range $links := . }}
+            {{ range $name, $url := $links }}
+            <a class="transition-transform scale-125 hover:scale-150 hover:text-primary-700 dark:hover:text-primary-400"
+                style="will-change:transform;" href="{{ $url }}" target="_blank"
+                aria-label="{{ $name | title }}" rel="me noopener noreferrer">{{ partial "icon.html" $name
+                }}</a>
+            {{ end }}
             {{ end }}
         </div>
+        {{ end }}
     </div>
 </div>
 
