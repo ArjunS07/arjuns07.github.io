@@ -2,6 +2,7 @@
 title: "Overengineering a Crypt Hunt: on /best practices/ and the evolution of a Django developer"
 date: 2023-04-30T00:51:33+05:30
 draft: false
+type: "post"
 description: "Why keeping your views fat and models thin is important in Django development, shown through two different approaches to the same problem" # used in HTML metadata
 showFullContent: false 
 summary: "An analysis of two different approaches I took to writing code for an intra-school event" # used in website

@@ -2,6 +2,7 @@
 title: "'Sharp' is a word that's more important to our future than you may realise"
 date: 2018-11-29T20:33:39+05:30
 draft: false
+type: "post"
 showFullContent: false
 tags: ["Abstract"]
 ---

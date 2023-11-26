@@ -2,6 +2,7 @@
 title: "Google Seems to Finally Have Streamlined Their Social Networking Strategy"
 date: 2018-12-11T20:33:21+05:30
 draft: false
+type: "post"
 showFullContent: false
 summary: "Google's known for the confusing deluge of social apps that they keep coming up with, but they might finally be getting their act together."
 tags: ["Industry"]

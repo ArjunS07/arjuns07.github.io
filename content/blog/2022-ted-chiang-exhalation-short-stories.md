@@ -2,6 +2,7 @@
 title: "Ted Chiang's 'Exhalation: Stories' forces you to think about the big questions"
 date: 2022-02-02T20:00:51+05:30
 draft: false
+type: "post"
 showFullContent: false
 summary: "A review of a collection of short stories by Ted Chiang, and musings on what it means"
 tags: ["Reviews"]

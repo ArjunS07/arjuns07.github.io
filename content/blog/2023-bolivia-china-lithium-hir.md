@@ -2,6 +2,7 @@
 title: "The battle for the global electric vehicle supply chain in Bolivia"
 date: 2023-08-30T23:38:15+05:30
 draft: false
+type: "post"
 description: "" # used in HTML metadata
 summary: "" # used in website
 keywords: [] # used in HTML metadata

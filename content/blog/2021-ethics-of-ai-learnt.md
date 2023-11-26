@@ -2,6 +2,7 @@
 title: "What we learnt about the ethics of AI in 2021"
 date: 2021-12-29T20:01:15+05:30
 draft: false
+type: "post"
 showFullContent: false
 summary: "A reflection on the moral and ethical challenges faced by AI this year as it becomes an increasingly prominent and powerful part of the world"
 tags: ["Artificial Intelligence"]

@@ -2,6 +2,7 @@
 title: "Satya Nadella's 'Hit Refresh' doesn't seem to know what it wants to be"
 date: 2019-01-08T20:33:08+05:30
 draft: false
+type: "post"
 showFullContent: false
 summary: "A review of the autobiography of the CEO of Microsoft, and musings on why it was a bit of a letdown"
 tags: ["Reviews"]

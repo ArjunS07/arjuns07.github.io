@@ -6,5 +6,6 @@ description: "" # used in HTML metadata
 summary: "" # used in website
 keywords: [] # used in HTML metadata
 tags: ["Deep Dives"] # used in website
+type: "post"
 ---
 

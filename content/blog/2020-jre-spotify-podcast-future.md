@@ -2,6 +2,7 @@
 title: "Joe Rogan's exclusive deal with Spotify is a worrying sign for the future of podcasting"
 date: 2020-05-22T20:02:21+05:30
 draft: false
+type: "post"
 showFullContent: false
 summary: "Spotify is looking to take over the podcasting industry, and may end up transforming it for the worse"
 tags: ["Industry"]

@@ -2,6 +2,7 @@
 title: "Things like spam can be more useful than you think"
 date: 2018-12-02T20:33:31+05:30
 draft: false
+type: "post"
 showFullContent: false
 tags: ["Abstract"]
 ---
