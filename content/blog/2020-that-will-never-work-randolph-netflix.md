@@ -2,7 +2,8 @@
 title: "Marc Randolph's 'That Will Never Work' endearingly tells the unlikely story of Netflix"
 date: 2020-03-07T20:03:15+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "A short review of the autobiography of Netflix's cofounder Marc Randolph"
 tags: ["Reviews"]

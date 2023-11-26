@@ -2,7 +2,8 @@
 title: "Microsoft, ChatGPT, and OpenAI: One month later"
 date: 2023-02-03T23:49:01+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 desc: "A look at what's happened in generative AI since I last wrote about it a month ago, and what it means for big tech."
 tags: ["Artificial Intelligence"]

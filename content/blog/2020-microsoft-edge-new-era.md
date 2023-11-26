@@ -3,7 +3,8 @@
 title: "Edge Chromium signals a new era for Microsoft"
 date: 2020-01-24T20:27:33+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "Microsoft's new Chromium-based browser is indicative of a broader shift in their strategy"
 tags: ["Industry"]

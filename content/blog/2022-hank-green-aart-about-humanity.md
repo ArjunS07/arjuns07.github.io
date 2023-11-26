@@ -2,7 +2,8 @@
 title: "In 'An Absolutely Remarkable Thing', Hank Green explores what it means to be human in the internet age"
 date: 2022-05-10T19:32:58+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "A review of the YouTuber's debut novel and musings on why it's a must-read for anyone interested in the implications of technology on humanity."
 tags: ["Reviews"]

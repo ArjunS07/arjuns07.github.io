@@ -2,7 +2,8 @@
 title: "Spotify's finally arrived in India. That matters."
 date: 2019-02-27T20:32:06+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "Spotify's arrival in India might signal the beginning of a new era in the country's music industry."
 tags: ["Industry"]

@@ -2,7 +2,8 @@
 title: "Andy Weir's 'Project Hail Mary' isn't 'The Martian', and that's a good thing"
 date: 2022-03-15T20:00:28+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "A review of Weir's latest novel and what it has to say about humanity."
 tags: ["Reviews"]

@@ -3,7 +3,8 @@ title: "7 apps and tools every student needs"
 date: 2022-02-25T20:01:39+05:30
 draft: false 
 showFullContent: false
-type: "post"
+rssType: "post"
+
 summary: "A listicle on the software that can help you be more productive and efficient as a student."
 tags: ["Reviews", "Productivity"]
 ---

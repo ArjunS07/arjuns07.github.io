@@ -2,7 +2,8 @@
 title: "This WWDC is vital for the future of Apple"
 date: 2019-06-02T20:27:59+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "WWDC 2019 might be the year where Apple redeems themselves and pivots to a new direction in their software."
 tags: ["Industry"]

@@ -59,7 +59,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
     {{- range $pages -}}
-    {{- if eq .Params.type "post" -}}
+    {{- if eq .Params.rssType "post" -}}
       <item>
         <title>{{ .Title }}</title>
         <link>{{ .Permalink }}</link>

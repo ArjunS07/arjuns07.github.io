@@ -2,7 +2,8 @@
 title: "Hidden gems on the technological internet to visit"
 date: 2020-09-20T20:01:49+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "A list of newsletters, blogs and YouTube channels that deserve a visit from any tech enthusiast"
 tags: ["Reviews"]

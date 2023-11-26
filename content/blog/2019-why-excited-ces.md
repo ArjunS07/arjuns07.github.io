@@ -2,7 +2,8 @@
 title: "Why I'm so excited for 2019 in technology"
 date: 2019-01-10T20:32:48+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "What I expect in the coming year in technology."
 ---

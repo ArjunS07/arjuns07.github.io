@@ -3,7 +3,8 @@
 title: "The Galaxy Fold showed us the future but reinforced the present"
 date: 2019-02-25T20:31:49+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "Samsung's Galaxy Fold showed an exciting technology that isn't yet ready for the world we live in."
 tags: ["Industry", "Abstract"]

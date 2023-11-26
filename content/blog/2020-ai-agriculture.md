@@ -2,7 +2,8 @@
 title: "AI's increasing role in facing agricultural challenges: a multi-part series"
 date: 2020-10-25T20:01:39+05:30
 draft: false
-type: "post"
+rssType: "post"
+
 showFullContent: false
 summary: "A multi-part exploration for the Inspirit AI Ambassador program on the applications of AI in agriculture."
 tags: ["Artificial Intelligence", "Deep Dives"]
