@@ -1,5 +1,5 @@
 ---
-title: "Intel just lost Apple, but it knows what it has to do to surive"
+title: "Intel just lost Apple, but it knows what it has to do to survive"
 date: 2020-07-26T20:02:02+05:30
 draft: false
 rssType: "post"
