@@ -1,6 +1,6 @@
 ---
 title: "Overengineering a Crypt Hunt: on /best practices/ and the evolution of a Django developer"
-date: 2023-04-30T00:51:33+05:30
+date: 2023-07-30T00:51:33+05:30
 draft: false
 rssType: "post"
 

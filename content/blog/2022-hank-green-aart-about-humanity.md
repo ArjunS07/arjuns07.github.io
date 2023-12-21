@@ -1,6 +1,6 @@
 ---
 title: "In 'An Absolutely Remarkable Thing', Hank Green explores what it means to be human in the internet age"
-date: 2022-05-10T19:32:58+05:30
+date: 2022-06-10T19:32:58+05:30
 draft: false
 rssType: "post"
 

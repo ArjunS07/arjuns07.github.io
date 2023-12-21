@@ -1,6 +1,6 @@
 ---
 title: "Andy Weir's 'Project Hail Mary' isn't 'The Martian', and that's a good thing"
-date: 2022-03-15T20:00:28+05:30
+date: 2022-06-15T20:00:28+05:30
 draft: false
 rssType: "post"
 
