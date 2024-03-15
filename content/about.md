@@ -16,10 +16,3 @@ Occasionally, my terminal window has been found closed. I've spent these times d
 43 of the 50 songs I've spent the most time listening to [on Spotify](https://open.spotify.com/user/312t5wi46n3yze3f6kuyjza4mspu?si=f765f49e744641fa) are by the [The Mountain Goats](https://www.mountain-goats.com). The piece of software which brings the most joy to my life every day is [Downlink](http://downlinkapp.com). [News Minimalist](https://www.newsminimalist.com) is the coolest tool I've used recently–and not just because it reminds me that artificial intelligence is about more than copyright law and tech doomerism.
 
 This website was built with a [custom fork](https://github.com/ArjunS07/personal-website) of the [Congo theme](https://github.com/jpanther/congo) for the [Hugo](gohugo.io) framework.
-
-{{< raw-html >}}
-<blockquote>
-  <p>I'm not a real doctor <br> but I am a real worm</p>
-  <footer>–I occasionally experience unjustified bursts of self-esteem and quote <span style="font-style:normal">They Might be Giants</span> lyrics.</cite></footer>
-</blockquote>
-{{< /raw-html >}}
